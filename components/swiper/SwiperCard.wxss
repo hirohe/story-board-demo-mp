@@ -1,0 +1,20 @@
+/* components/swiper/SwiperCard.wxss */
+.swiper-card {
+  border-radius: 4px;
+}
+
+.swiper-card:not(.moving) {
+  transition: transform ease-out .3s;
+}
+
+.swiper-card.out.right:not(.moving) {
+  transform: translateX(100vw);
+}
+
+.swiper-card.out.left:not(.moving) {
+  transform: translateX(-100vw);
+}
+
+.swiper-card-image {
+  width: 100%;
+}
