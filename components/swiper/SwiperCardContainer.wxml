@@ -1,0 +1,13 @@
+<!--components/swiper/SwiperCardContainer.wxml-->
+<view class="swiper-card-container">
+  <view class="card" wx:if="{{currentCard !== null}}">
+    <swiper-card bindonswipeout="onSwipeOut"></swiper-card>
+  </view>
+  <view
+    class="card"
+    bindtransitionend="onNextCardTransitionEnd"
+  >
+    <swiper-card></swiper-card>
+  </view>
+  <image src="../../images/avril.jpg" class="bg-image" mode="aspectFill"></image>
+</view>

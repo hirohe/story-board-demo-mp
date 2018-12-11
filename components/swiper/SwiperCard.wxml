@@ -1,15 +1,11 @@
 <!--components/swiper/SwiperCard.wxml-->
-<view
+<image
   class="swiper-card {{moving ? 'moving' : ''}} {{direction ? direction : ''}} {{out ? 'out' : ''}}"
   bindtouchstart="onTouchStart"
   capture-catch:touchmove="onMove"
   bindtouchend="onTouchEnd"
   bindtransitionend="onTransitionEnd"
   style="{{moving ? 'transform: translateX('+movingX+'px)' : ''}}"
->
-  <image
-    class='swiper-card-image'
-    src="../../images/avril.jpg"
-    mode="widthFix"
-  ></image>
-</view>
+  src="../../images/avril.jpg"
+  mode="widthFix"
+></image>

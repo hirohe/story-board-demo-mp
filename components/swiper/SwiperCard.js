@@ -1,8 +1,5 @@
 // components/swiper/SwiperCard.js
 Component({
-  /**
-   * 组件的属性列表
-   */
   properties: {
     imageSrc: {
       type: String,
@@ -10,13 +7,10 @@ Component({
     },
     distanceToSwipe: {
       type: Number,
-      value: 100,
+      value: 50,
     },
   },
 
-  /**
-   * 组件的初始数据
-   */
   data: {
     moving: false,
     movingStartX: null,
@@ -25,9 +19,6 @@ Component({
     direction: null,
   },
 
-  /**
-   * 组件的方法列表
-   */
   methods: {
     onTouchStart(e) {
       console.log('on touch start', e.touches[0]);
@@ -35,11 +26,11 @@ Component({
     onMove(e) {
       const touchData = e.touches[0];
       if (!this.data.moving) {
-        // console.log('set start movingX', touchData.clientX)
+        console.log('set start movingX', touchData.clientX)
         this.setData({ movingStartX: touchData.clientX, moving: true });
       } else {
         const movingX = touchData.clientX - this.data.movingStartX;
-        // console.log('movingX', movingX)
+        console.log('movingX', movingX)
         this.setData({ movingX })
       }
     },

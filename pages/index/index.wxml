@@ -1,4 +1,4 @@
 <!--index.wxml-->
 <view class="container">
-  <swiper-card class="swiper-card" bindonswipeout="onSwipeOut"></swiper-card>
+  <swiper-card-container class="swiper-card-container" cards="{{cards}}"></swiper-card-container>
 </view>
