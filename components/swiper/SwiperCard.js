@@ -6,6 +6,7 @@ Component({
       value: '',
       observer() {
         this.setData({
+          loaded: false,
           moving: false,
           movingStartX: null,
           movingX: null,
@@ -21,6 +22,7 @@ Component({
   },
 
   data: {
+    loaded: false,
     moving: false,
     movingStartX: null,
     movingX: null,
@@ -29,6 +31,10 @@ Component({
   },
 
   methods: {
+    onImageLoad() {
+      this.setData({ loaded: true });
+      console.log('image on load');
+    },
     onTouchStart(e) {
       console.log('on touch start', e.touches[0]);
     },

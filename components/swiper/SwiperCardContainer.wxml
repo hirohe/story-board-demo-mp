@@ -9,5 +9,5 @@
   >
     <swiper-card imageSrc="{{nextCard.imageSrc}}"></swiper-card>
   </view>
-  <image src="{{currentCard.imageSrc}}" class="bg-image" mode="aspectFill"></image>
+  <image src="{{bgImage}}" class="bg-image" mode="aspectFill"></image>
 </view>

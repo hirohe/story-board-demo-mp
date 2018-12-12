@@ -11,10 +11,10 @@ Page({
 
     cards: [
       {
-        imageSrc: '../../images/avril.jpg',
+        imageSrc: '../../images/takeuchi.jpg',
       },
       {
-        imageSrc: '../../images/takeuchi.jpg',
+        imageSrc: '../../images/avril.jpg',
       },
     ]
   },

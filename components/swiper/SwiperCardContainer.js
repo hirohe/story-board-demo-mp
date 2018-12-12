@@ -12,6 +12,7 @@ Component({
     nextIndex: 0,
     currentCard: null,
     nextCard: null,
+    bgImage: null,
     popNext: false,
   },
 
@@ -22,13 +23,17 @@ Component({
         const currentCard = cards[index];
         let nextCard = null;
         if (cards.length > index + 1) nextCard = cards[index + 1];
-        this.setData({ currentCard, nextCard });
+        this.setData({
+          currentCard,
+          nextCard,
+          bgImage: currentCard.imageSrc,
+        });
       }
 
       // test
       wx.setNavigationBarColor({
         frontColor: '#ffffff',
-        backgroundColor: '#000000',
+        backgroundColor: '#888',
       });
     },
   },
@@ -48,7 +53,13 @@ Component({
           nextIndex = index + 1;
         }
       }
-      this.setData({ currentCard: null, index, nextIndex, popNext: true });
+      this.setData({
+        currentCard: null,
+        bgImage: cards[index].imageSrc,
+        index,
+        nextIndex,
+        popNext: true
+      });
     },
 
     onNextCardTransitionEnd() {

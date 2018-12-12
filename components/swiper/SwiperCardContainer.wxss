@@ -35,3 +35,7 @@
   filter: blur(5px);
   transform: scale(1.1);
 }
+
+image {
+  will-change: transform;
+}
