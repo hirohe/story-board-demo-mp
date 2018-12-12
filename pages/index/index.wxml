@@ -1,4 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <swiper-card-container class="swiper-card-container" cards="{{cards}}"></swiper-card-container>
+  <!--<swiper-card-container class="swiper-card-container" cards="{{cards}}"></swiper-card-container>-->
+  <share-btn />
+  <input-modal />
 </view>

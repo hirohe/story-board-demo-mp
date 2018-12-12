@@ -1,0 +1,68 @@
+.input-modal {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-modal-box {
+    width: 600rpx;
+    height: 680rpx;
+}
+.box-picture {
+    width: 600rpx;
+    height: 600rpx;
+    background: ghostwhite;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rpx;
+}
+.box-picture-input {
+    display: flex;
+    justify-content: center;
+    width: 300rpx;
+    margin-top: 40rpx;
+    border-bottom: 1rpx solid black;
+}
+.box-picture-input input {
+    padding-bottom: 10rpx;
+    width: 62%;
+}
+.box-picture-qrCode {
+    margin-top: 40rpx;
+    width: 220rpx;
+    height: 220rpx;
+}
+.box-picture text {
+    text-indent: 20rpx;
+    width: 220rpx;
+    margin-top: 30rpx;
+    font-size: 20rpx;
+}
+.box-picture button {
+    border: 0;
+    width: 300rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    margin-top: 40rpx;
+    font-size: 30rpx;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+}
+.close-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600rpx;
+    height: 80rpx;
+}
+.close-btn image {
+    width: 48rpx;
+    height: 48rpx;
+}

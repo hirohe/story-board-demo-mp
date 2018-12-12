@@ -1,0 +1,5 @@
+<view>
+    <button class="share-btn" open-type="share">
+        <image src="../../images/iconfont/share.png" />
+    </button>
+</view>
