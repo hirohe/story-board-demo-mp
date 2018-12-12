@@ -13,7 +13,8 @@
   position: absolute;
   width: 80vw;
   transition: ease-out .2s;
-  transition-property: transform margin-top;
+  transition-property: transform;
+  will-change: transform;
 }
 
 .card:last-of-type {
