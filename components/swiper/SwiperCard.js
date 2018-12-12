@@ -4,6 +4,15 @@ Component({
     imageSrc: {
       type: String,
       value: '',
+      observer() {
+        this.setData({
+          moving: false,
+          movingStartX: null,
+          movingX: null,
+          out: false,
+          direction: null,
+        });
+      }
     },
     distanceToSwipe: {
       type: Number,
@@ -26,11 +35,11 @@ Component({
     onMove(e) {
       const touchData = e.touches[0];
       if (!this.data.moving) {
-        console.log('set start movingX', touchData.clientX)
+        // console.log('set start movingX', touchData.clientX)
         this.setData({ movingStartX: touchData.clientX, moving: true });
       } else {
         const movingX = touchData.clientX - this.data.movingStartX;
-        console.log('movingX', movingX)
+        // console.log('movingX', movingX)
         this.setData({ movingX })
       }
     },

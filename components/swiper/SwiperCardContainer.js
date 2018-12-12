@@ -8,13 +8,21 @@ Component({
   },
 
   data: {
+    index: 0,
+    nextIndex: 0,
     currentCard: null,
+    nextCard: null,
+    popNext: false,
   },
 
   lifetimes: {
     attached() {
-      if (this.data.cards && this.data.cards.length > 0) {
-        this.setData({ currentCard: this.data.cards[0] });
+      const { index, nextIndex, cards } = this.data;
+      if (cards && cards.length > 0) {
+        const currentCard = cards[index];
+        let nextCard = null;
+        if (cards.length > index + 1) nextCard = cards[index + 1];
+        this.setData({ currentCard, nextCard });
       }
 
       // test
@@ -27,15 +35,31 @@ Component({
 
   methods: {
     onSwipeOut() {
-      console.log('onSwipeOut')
-      this.setData({ currentCard: null });
+      // console.log('onSwipeOut');
+      let { index, nextIndex, cards } = this.data;
+      if (index === cards.length - 1) {
+        index = 0;
+        nextIndex = 1;
+      } else {
+        index += 1;
+        if (index === cards.length - 1) {
+          nextIndex = 0;
+        } else {
+          nextIndex = index + 1;
+        }
+      }
+      this.setData({ currentCard: null, index, nextIndex, popNext: true });
     },
 
     onNextCardTransitionEnd() {
+      console.log('onNextCardTransitionEnd');
+      let { index, nextIndex, cards } = this.data;
       // test
-      setTimeout(() => {
-        this.setData({ currentCard: this.data.cards[0] });
-      }, 10);
+      this.setData({
+        currentCard: cards[index],
+        nextCard: cards[nextIndex],
+        popNext: false,
+      });
     }
   }
 })

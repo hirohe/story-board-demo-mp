@@ -6,6 +6,6 @@
   bindtouchend="onTouchEnd"
   bindtransitionend="onTransitionEnd"
   style="{{moving ? 'transform: translateX('+movingX+'px)' : ''}}"
-  src="../../images/avril.jpg"
+  src="{{imageSrc}}"
   mode="widthFix"
 ></image>

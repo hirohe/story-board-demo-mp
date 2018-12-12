@@ -11,8 +11,11 @@ Page({
 
     cards: [
       {
-        imageSrc: '',
-      }
+        imageSrc: '../../images/avril.jpg',
+      },
+      {
+        imageSrc: '../../images/takeuchi.jpg',
+      },
     ]
   },
   //事件处理函数
