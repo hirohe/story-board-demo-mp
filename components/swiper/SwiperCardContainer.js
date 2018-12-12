@@ -28,13 +28,10 @@ Component({
           nextCard,
           bgImage: currentCard.imageSrc,
         });
-      }
 
-      // test
-      wx.setNavigationBarColor({
-        frontColor: '#ffffff',
-        backgroundColor: '#888',
-      });
+        // test
+        wx.setNavigationBarColor(currentCard.statusBarStyle);
+      }
     },
   },
 
@@ -60,6 +57,8 @@ Component({
         nextIndex,
         popNext: true
       });
+
+      wx.setNavigationBarColor(cards[index].statusBarStyle);
     },
 
     onNextCardTransitionEnd() {

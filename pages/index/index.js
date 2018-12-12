@@ -12,9 +12,24 @@ Page({
     cards: [
       {
         imageSrc: '../../images/takeuchi.jpg',
+        statusBarStyle: {
+          frontColor: '#ffffff',
+          backgroundColor: '#555',
+        },
       },
       {
-        imageSrc: '../../images/avril.jpg',
+        imageSrc: '../../images/takeuchi-2.jpg',
+        statusBarStyle: {
+          frontColor: '#ffffff',
+          backgroundColor: '#bb983a',
+        },
+      },
+      {
+        imageSrc: '../../images/takeo.jpg',
+        statusBarStyle: {
+          frontColor: '#ffffff',
+          backgroundColor: '#000',
+        },
       },
     ]
   },
