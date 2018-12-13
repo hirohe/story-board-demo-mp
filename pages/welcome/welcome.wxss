@@ -1,0 +1,19 @@
+/* pages/welcome/welcome.wxss */
+.welcome {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.welcome-title {
+  font-family: cursive, serif, Georgia;
+  font-size: 2.5rem;
+  color: white;
+  position: relative;
+  top: -20%;
+  text-align: center;
+}
