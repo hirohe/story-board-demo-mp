@@ -2,25 +2,33 @@
 .container {
   position: relative;
   background: url('https://miniapp.hirohe.me/images/fcc/cover.jpg');
-  background-repeat:no-repeat;
-  background-size:100% 100%;
-  -moz-background-size:100% 100%;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  background-position-y: 20%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.container-top {
+
+.container-share {
+  position: absolute;
+  opacity: .5;
   margin: 20rpx 0 0 620rpx;
 }
 
 .container-bottom {
-  margin-bottom: 40rpx;
+  position: absolute;
+  top: 65%;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 .container-play {
   width: 100rpx;
   height: 100rpx;
+  opacity: .3;
   border-radius: 50%;
   background: #eee;
   display: flex;
