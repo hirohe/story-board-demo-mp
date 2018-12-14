@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78d33677-ba18-44fa-bae0-f609f76a2215" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/end/end.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/end/end.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/end/end.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/end/end.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/inputModal/InputModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/inputModal/InputModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/inputModal/InputModal.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/inputModal/InputModal.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/end/end.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/end/end.wxss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InputModal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/inputModal/InputModal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="168">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -50,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="end.wxss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="end.wxss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/end/end.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state relative-caret-position="69">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -99,13 +102,13 @@
         <option value="$PROJECT_DIR$/pages/end/welcome.js" />
         <option value="$PROJECT_DIR$/pages/end/end.json" />
         <option value="$PROJECT_DIR$/components/inputModal/InputModal.wxml" />
-        <option value="$PROJECT_DIR$/components/inputModal/InputModal.js" />
         <option value="$PROJECT_DIR$/pages/end/end.wxss.css" />
         <option value="$PROJECT_DIR$/pages/end/end1.wxss" />
-        <option value="$PROJECT_DIR$/pages/end/end.wxss" />
         <option value="$PROJECT_DIR$/pages/end/end.js" />
         <option value="$PROJECT_DIR$/pages/end/end.wxml" />
         <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/components/inputModal/InputModal.js" />
+        <option value="$PROJECT_DIR$/pages/end/end.wxss" />
       </list>
     </option>
   </component>
@@ -141,6 +144,12 @@
               <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
               <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="inputModal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
@@ -325,11 +334,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544634597946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add end page">
+      <created>1544807491982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544807491982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30256000" />
+    <option name="totallyTimeSpent" value="30871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -343,7 +359,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.5365517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.07172414" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37241378" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -417,7 +433,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add share modal component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add share modal component" />
+    <MESSAGE value="add end page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add end page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/components/inputModal/InputModal.wxml">
@@ -634,13 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/inputModal/InputModal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/end/end.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -668,17 +678,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/end/end.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/welcome/welcome.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="3" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -696,10 +706,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
+    <entry file="file://$PROJECT_DIR$/components/inputModal/InputModal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="447">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/end/end.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
