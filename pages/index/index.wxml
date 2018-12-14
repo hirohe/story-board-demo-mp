@@ -1,12 +1,12 @@
 <!--index.wxml-->
 <view class="container">
+
   <view class="container-share">
     <share-btn wx:if="{{!playStatus}}"/>
   </view>
 
   <view class="container-bottom">
-
-    <view class="container-play" wx:if="{{!playStatus}}">
+    <view class="container-play" hidden="{{playStatus}}">
       <image bindtap="goPlay" src="../../images/iconfont/play.png" />
     </view>
 
