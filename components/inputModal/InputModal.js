@@ -22,8 +22,8 @@ Component({
    */
   methods: {
     // 是否显示隐藏模态框
-    changeInputModal({target: {dataset: {status}}}) {
-      this.triggerEvent("changeInputModalStatus", status)
+    changeInputModal(e) {
+      this.triggerEvent("changeInputModalStatus", e)
     },
   }
 });

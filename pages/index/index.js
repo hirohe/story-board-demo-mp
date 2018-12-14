@@ -44,17 +44,11 @@ Page({
   },
   // 展示 输入阅读码 模态框
   changeInputModalStatus(e) {
-    if(e === true || e === false) {
-      this.setData({
-        inputModalStatus: e
-      });
-    } else {
-      console.log(e);
-      const {target: {dataset: {status}}} = e;
-      this.setData({
-        inputModalStatus: status
-      });
-    }
+    console.log(e)
+    console.log(e.target.dataset.status);
+    this.setData({
+      inputModalStatus: true
+    });
   },
 
   //事件处理函数
