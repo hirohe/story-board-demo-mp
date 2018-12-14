@@ -15,6 +15,7 @@
   opacity: .5;
   margin: 20rpx 0 0 620rpx;
 }
+
 .container-bottom {
   position: absolute;
   top: 85%;
@@ -37,6 +38,10 @@
   height: 90rpx;
 }
 .container-btn {
+  position: absolute;
+  bottom: 10%;
+  margin-left:50%;
+  transform:translateX(-50%);
   width: 60%;
   color: white !important;
   border: 1rpx solid white !important;
