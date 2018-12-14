@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-<view class="input-modal" wx:if="{{visibility}}">
-  <view class="input-modal-box">
-    <view class="box-picture">
-      <view class="box-picture-input">
-        <input placeholder-style="text-align: center; font-size: 14px" placeholder="输入阅读码" />
-      </view>
-      <image class="box-picture-qrCode" src="../../images/iconfont/qrCode.png"></image>
-      <text>长按二维码关注公众号发送 "范丞丞" 即可获取</text>
-      <button>确定</button>
-    </view>
-    <view class="close-btn">
-      <image data-status="{{false}}" bindtap="changeInputModal" src="../../images/iconfont/close.png"></image>
-=======
 <view class="input-modal" wx:if="{{inputModalStatus}}">
   <view class="input-modal-box">
     <view class="box-picture">
@@ -30,7 +16,6 @@
         data-status="{{false}}"
         bindtap="changeInputModal"
         src="../../images/iconfont/close.png"></image>
->>>>>>> 443ca0bc4fde3f81ecbcab67e2968435dbaeae88
     </view>
   </view>
 </view>
