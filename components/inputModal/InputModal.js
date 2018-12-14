@@ -23,7 +23,7 @@ Component({
   methods: {
     // 是否显示隐藏模态框
     changeInputModal(e) {
-      this.triggerEvent("changeInputModalStatus", e)
+      this.triggerEvent("hideInputModalStatus", false)
     },
   }
 });

@@ -9,11 +9,10 @@
       </view>
       <image class="box-picture-qrCode" src="../../images/iconfont/qrCode.png"></image>
       <text>长按二维码关注公众号发送 "范丞丞" 即可获取</text>
-      <button data-status="{{false}}" bindtap="changeInputModal">确定</button>
+      <button>确定</button>
     </view>
     <view class="close-btn">
       <image
-        data-status="{{false}}"
         bindtap="changeInputModal"
         src="../../images/iconfont/close.png"></image>
     </view>

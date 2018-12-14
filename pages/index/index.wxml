@@ -12,8 +12,7 @@
     </view>
 
     <button
-      data-status="{{true}}"
-      bindtap="changeInputModalStatus"
+      bindtap="showInputModalStatus"
       wx:if="{{playStatus}}"
       size="mini"
       type="success"
@@ -24,6 +23,6 @@
 
   <input-modal
     inputModalStatus="{{inputModalStatus}}"
-    bind:changeInputModalStatus="changeInputModalStatus"
+    bind:hideInputModalStatus="hideInputModalStatus"
   />
 </view>

@@ -43,11 +43,15 @@ Page({
     });
   },
   // 展示 输入阅读码 模态框
-  changeInputModalStatus(e) {
-    console.log(e)
-    console.log(e.target.dataset.status);
+  showInputModalStatus() {
     this.setData({
       inputModalStatus: true
+    });
+  },
+  // 隐藏 输入阅读码 模态框
+  hideInputModalStatus() {
+    this.setData({
+      inputModalStatus: false
     });
   },
 
