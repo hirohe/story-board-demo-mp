@@ -31,8 +31,32 @@ Page({
           backgroundColor: '#000',
         },
       },
-    ]
+    ],
+
+    playStatus: false,  // 播放状态
+    inputModalStatus: false // 输入阅读码模态框
   },
+  // 去播放
+  goPlay() {
+    this.setData({
+      playStatus: true
+    });
+  },
+  // 展示 输入阅读码 模态框
+  changeInputModalStatus(e) {
+    if(e === true || e === false) {
+      this.setData({
+        inputModalStatus: e
+      });
+    } else {
+      console.log(e);
+      const {target: {dataset: {status}}} = e;
+      this.setData({
+        inputModalStatus: status
+      });
+    }
+  },
+
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

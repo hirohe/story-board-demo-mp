@@ -1,5 +1,39 @@
 /**index.wxss**/
-.swiper-card-container {
-  width: 100vw;
-  height: 100vh;
+.container {
+  position: relative;
+  background: url('https://miniapp.hirohe.me/images/fcc/cover.jpg');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-top {
+  margin: 20rpx 0 0 620rpx;
+}
+
+.container-bottom {
+  margin-bottom: 40rpx;
+  display: flex;
+  justify-content: center;
+}
+.container-play {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-play image {
+  width: 90rpx;
+  height: 90rpx;
+}
+.container-btn {
+  width: 60%;
+  color: white !important;
+  border: 1rpx solid white !important;
+  border-radius: 0;
 }

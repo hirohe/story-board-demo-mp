@@ -10,6 +10,10 @@
     border: 4px solid #bfbfbf;
 }
 
+button::after{
+  border: none;
+}
+
 .share-btn image {
     width: 48rpx;
     height: 48rpx;

@@ -1,11 +1,11 @@
 // pages/welcome/welcome.js
+let timers = null;
 Page({
   data: {
-
+    timer: 1
   },
-
   onShow() {
-    setTimeout(() => {
+    timers = setTimeout(() => {
       wx.navigateTo({
         url: '../index/index',
       });
@@ -16,4 +16,7 @@ Page({
       backgroundColor: '#000',
     });
   },
-})
+  onHide() {
+    clearInterval(timers);
+  }
+});

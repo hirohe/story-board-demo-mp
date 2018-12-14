@@ -1,6 +1,29 @@
 <!--index.wxml-->
 <view class="container">
-  <!--<swiper-card-container class="swiper-card-container" cards="{{cards}}"></swiper-card-container>-->
-  <share-btn />
-  <input-modal />
+
+  <view class="container-top">
+    <share-btn wx:if="{{!playStatus}}"/>
+  </view>
+
+  <view class="container-bottom">
+
+    <view class="container-play" wx:if="{{!playStatus}}">
+      <image bindtap="goPlay" src="../../images/iconfont/play.png" />
+    </view>
+
+    <button
+      data-status="{{true}}"
+      bindtap="changeInputModalStatus"
+      wx:if="{{playStatus}}"
+      size="mini"
+      type="success"
+      plain="{{true}}"
+      class="container-btn"
+    >输入阅读码</button>
+  </view>
+
+  <input-modal
+    inputModalStatus="{{inputModalStatus}}"
+    bind:changeInputModalStatus="changeInputModalStatus"
+  />
 </view>
