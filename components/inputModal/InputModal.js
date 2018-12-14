@@ -22,8 +22,14 @@ Component({
    */
   methods: {
     // 是否显示隐藏模态框
-    changeInputModal(e) {
+    hideInputModal() {
       this.triggerEvent("hideInputModalStatus", false)
     },
+    // 暂时跳转结束页面
+    toPlayImage() {
+      wx.navigateTo({
+        url: '../end/end',
+      });
+    }
   }
 });

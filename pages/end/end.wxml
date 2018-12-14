@@ -1,0 +1,19 @@
+<view class="end">
+  <view class="end-title">
+    <view class="end-title-top">CHEESE</view>
+    <view class="end-title-bottom">FASHION</view>
+  </view>
+  <view class="bottom-box">
+    <view class="remove-font" wx:if="{{status}}">
+      <view class="remove-font-title">领衔出演staring / 范丞丞Adam</view>
+      <view class="role-item"
+          wx:for="{{roleList}}"
+          wx:key="{{index}}"
+      >
+        <view class="desc">{{item.desc}}</view>
+        <view class="name">{{item.name}}</view>
+      </view>
+      <view class="remove-font-bottom">Let 's say cheseeeeeee</view>
+    </view>
+  </view>
+</view>
