@@ -1,7 +1,5 @@
-let timers = null;
 Page({
   data: {
-    status: true,
     roleList: [{
       desc: '出品人Producer',
       name: '刘馨亦Angela'
@@ -35,14 +33,20 @@ Page({
     },{
       desc: '图片制作photographEditor',
       name: '常馨予Cici'
-    }]
+    }],
+    animationData: {}
   },
+
+
   onShow() {
-    timers = setTimeout(() => {
-      this.setData({status: false});
-    }, 9000)
+    const animation = wx.createAnimation({
+      duration: 9000,
+      delay: 500
+    });
+    this.animation = animation;
+    animation.translateY(-500).step();
+    this.setData({
+      animationData: this.animation.export()
+    })
   },
-  onHide() {
-    clearInterval(timers);
-  }
 });

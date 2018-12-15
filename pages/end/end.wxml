@@ -4,7 +4,7 @@
     <view class="end-title-bottom">FASHION</view>
   </view>
   <view class="bottom-box">
-    <view class="remove-font" wx:if="{{status}}">
+    <view class="remove-font" animation="{{animationData}}">
       <view class="remove-font-title">领衔出演staring / 范丞丞Adam</view>
       <view class="role-item"
           wx:for="{{roleList}}"

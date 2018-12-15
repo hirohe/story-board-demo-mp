@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78d33677-ba18-44fa-bae0-f609f76a2215" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/components/inputModal/InputModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/inputModal/InputModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/end/end.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/end/end.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/end/end.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/end/end.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/end/end.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/end/end.wxss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,35 +22,8 @@
       <file leaf-file-name="end.wxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/end/end.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputModal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/inputModal/InputModal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="end.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/end/end.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="41" column="26" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="26" />
+            <state relative-caret-position="105">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -56,8 +31,17 @@
       <file leaf-file-name="end.wxss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/end/end.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="552">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="end.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/end/end.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -90,7 +74,6 @@
         <option value="$PROJECT_DIR$/components/InputModal/InputModal.wxss" />
         <option value="$PROJECT_DIR$/app.wxss" />
         <option value="$PROJECT_DIR$/pages/index/index.json" />
-        <option value="$PROJECT_DIR$/pages/welcome/welcome.js" />
         <option value="$PROJECT_DIR$/components/shareBtn/ShareBtn.wxml" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/components/shareBtn/ShareBtn.wxss" />
@@ -104,10 +87,12 @@
         <option value="$PROJECT_DIR$/components/inputModal/InputModal.wxml" />
         <option value="$PROJECT_DIR$/pages/end/end.wxss.css" />
         <option value="$PROJECT_DIR$/pages/end/end1.wxss" />
-        <option value="$PROJECT_DIR$/pages/end/end.js" />
-        <option value="$PROJECT_DIR$/pages/end/end.wxml" />
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/components/inputModal/InputModal.js" />
+        <option value="$PROJECT_DIR$/pages/welcome/welcome.js" />
+        <option value="$PROJECT_DIR$/pages/welcome/welcome.wxss" />
+        <option value="$PROJECT_DIR$/pages/end/end.js" />
+        <option value="$PROJECT_DIR$/pages/end/end.wxml" />
         <option value="$PROJECT_DIR$/pages/end/end.wxss" />
       </list>
     </option>
@@ -345,7 +330,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30871000" />
+    <option name="totallyTimeSpent" value="32939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -671,17 +656,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/welcome/welcome.wxss">
+    <entry file="file://$PROJECT_DIR$/pages/welcome/welcome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="105">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/welcome/welcome.js">
+    <entry file="file://$PROJECT_DIR$/pages/welcome/welcome.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="378">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -692,31 +677,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/inputModal/InputModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/end/end.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="26" />
+        <state relative-caret-position="21">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/end/end.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/inputModal/InputModal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        <state relative-caret-position="105">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/end/end.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="552">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
         </state>
       </provider>
     </entry>
