@@ -5,12 +5,12 @@ Page({
     timer: 1
   },
   onShow() {
+    wx.hideLoading();
     timers = setTimeout(() => {
       wx.navigateTo({
         url: '../index/index',
       });
-    }, 2000)
-
+    }, 1000);
     wx.setNavigationBarColor({
       frontColor: '#ffffff',
       backgroundColor: '#000',

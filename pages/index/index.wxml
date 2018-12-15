@@ -1,6 +1,5 @@
 <!--index.wxml-->
 <view class="container">
-
   <view class="container-share">
     <share-btn wx:if="{{!playStatus}}"/>
   </view>

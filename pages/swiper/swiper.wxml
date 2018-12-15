@@ -1,0 +1,9 @@
+<view class="swiper">
+  <image
+    src="{{currentImage}}"
+    bindtouchstart="onTouchStart"
+    bindtouchmove="onTouchMove"
+    bindtouchend="onTouchEnd"
+    bindload="imageLoadEnd"
+  ></image>
+</view>

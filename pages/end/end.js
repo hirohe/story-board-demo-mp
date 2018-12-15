@@ -34,19 +34,31 @@ Page({
       desc: '图片制作photographEditor',
       name: '常馨予Cici'
     }],
-    animationData: {}
+    animationData: {},
   },
-
-
-  onShow() {
+  onShow: function () {
     const animation = wx.createAnimation({
-      duration: 9000,
-      delay: 500
+      duration: 100,
     });
+
     this.animation = animation;
-    animation.translateY(-500).step();
+    animation.translateY(0).step();
+
     this.setData({
-      animationData: this.animation.export()
-    })
+      animationData: animation.export()
+    });
+
+    this.timer = setTimeout(function () {
+      animation.translateY(-500).step({duration: 9000});
+      this.setData({
+        animationData: animation.export()
+      })
+    }.bind(this), 100)
   },
+  onHide() {
+    clearInterval(this.timer);
+  },
+  onUnload() {
+    clearInterval(this.timer);
+  }
 });
