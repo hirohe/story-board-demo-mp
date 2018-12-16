@@ -1,25 +1,33 @@
 <!--index.wxml-->
 <view class="container">
-
-  <view class="container-share">
-    <share-btn wx:if="{{!playStatus}}"/>
+  <!--加载进入logo页面-->
+  <view class="welcome" wx:if="{{welcomeVisible}}">
+    <image src="../../images/iconfont/logo.jpg"></image>
   </view>
 
-  <view class="container-bottom">
-    <view class="container-play" hidden="{{playStatus}}">
+  <!--主页内容-->
+  <view class="index" wx:else>
+    <view class="index-share">
+      <share-btn wx:if="{{!playStatus}}"/>
+    </view>
+    <view class="index-name">
+      <image src="http://pjpgeagds.bkt.clouddn.com/%E5%90%8D%E5%AD%97.png"></image>
+    </view>
+    <view class="index-play" wx:if="{{!playStatus}}">
       <image bindtap="goPlay" src="../../images/iconfont/play.png" />
     </view>
-
-    <button
-      bindtap="showInputModalStatus"
-      wx:if="{{playStatus}}"
-      size="mini"
-      type="success"
-      plain="{{true}}"
-      class="container-btn"
-    >输入阅读码</button>
+    <view class="index-btn">
+      <button
+        wx:if="{{playStatus && !inputModalStatus}}"
+        bindtap="showInputModalStatus"
+        size="mini"
+        type="success"
+        plain="{{true}}"
+      >输入阅读码</button>
+    </view>
   </view>
 
+  <!--模态框-->
   <input-modal
     inputModalStatus="{{inputModalStatus}}"
     bind:hideInputModalStatus="hideInputModalStatus"

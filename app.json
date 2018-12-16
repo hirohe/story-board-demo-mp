@@ -1,8 +1,7 @@
 {
   "pages": [
-    "pages/welcome/welcome",
-    "pages/swiper/swiper",
     "pages/index/index",
+    "pages/swiper/swiper",
     "pages/logs/logs",
     "pages/end/end"
 
@@ -10,7 +9,6 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "Cheese Fashion",
     "navigationBarTextStyle": "white"
   }
 }

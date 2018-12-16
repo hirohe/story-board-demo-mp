@@ -1,31 +1,41 @@
 /**index.wxss**/
 .container {
   position: relative;
-  background: url('https://miniapp.hirohe.me/images/fcc/cover.jpg');
   background-color: #000;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  overflow: hidden;
 }
 
-.container-share {
-  position: absolute;
+.welcome {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 200rpx;
+}
+
+.index {
+  background: url('http://pjpgeagds.bkt.clouddn.com/1@3x.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment:fixed;
+  background-position: 0 -92px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.index-share {
+  height: 100rpx;
   opacity: .5;
   margin: 20rpx 0 0 620rpx;
 }
-
-.container-bottom {
-  position: absolute;
-  top: 85%;
-  bottom: 50rpx;
+.index-name {
   width: 100%;
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  margin-top: 616rpx;
 }
-
-.container-play {
+.index-play {
+  margin: -165rpx auto;
   width: 100rpx;
   height: 100rpx;
   opacity: .3;
@@ -35,13 +45,16 @@
   justify-content: center;
   align-items: center;
 }
-.container-play image {
+.index-play image {
   width: 90rpx;
   height: 90rpx;
 }
-.container-btn {
-  position: absolute;
-  bottom: 10%;
+.index-btn {
+  margin: -160rpx auto;
+  width: 100%;
+  text-align: center;
+}
+.index-btn button{
   width: 60%;
   color: white !important;
   border: 1rpx solid white !important;

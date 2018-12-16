@@ -1,4 +1,0 @@
-<!--pages/welcome/welcome.wxml-->
-<view class="welcome">
-  <text class="welcome-title">Cheese Fashion</text>
-</view>
