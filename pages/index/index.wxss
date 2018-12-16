@@ -42,8 +42,6 @@
 .container-btn {
   position: absolute;
   bottom: 10%;
-  margin-left:50%;
-  transform:translateX(-50%);
   width: 60%;
   color: white !important;
   border: 1rpx solid white !important;
