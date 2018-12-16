@@ -67,7 +67,6 @@ Page({
         });
       })
     } else {
-      wx.showLoading({title: '加载图片...'});
       this.setData({
         index: index+1
       }, () => {
@@ -101,7 +100,6 @@ Page({
     }
   },
   imageLoadEnd() {
-    wx.hideLoading();
   },
   onHide() {
   }

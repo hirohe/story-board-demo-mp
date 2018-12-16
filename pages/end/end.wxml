@@ -1,7 +1,6 @@
 <view class="end">
   <view class="end-title">
-    <view class="end-title-top">CHEESE</view>
-    <view class="end-title-bottom">FASHION</view>
+    <image src="../../images/iconfont/logo.jpg"></image>
   </view>
   <view class="bottom-box">
     <view class="remove-font" animation="{{animationData}}">
