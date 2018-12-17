@@ -1,0 +1,3 @@
+<view class="font-swiper {{currentIndex === 3? 'font-80': ''}}">
+  {{currentFont}}
+</view>
