@@ -1,7 +1,12 @@
 {
   "usingComponents": {
     "share-btn": "/components/shareBtn/ShareBtn",
-    "input-modal": "/components/inputModal/InputModal"
+    "input-modal": "/components/inputModal/InputModal",
+    "dress-show1": "/components/dressShow1/dressShow1",
+    "dress-show2": "/components/dressShow2/dressShow2",
+    "dress-show3": "/components/dressShow3/dressShow3",
+    "dress-show4": "/components/dressShow4/dressShow4",
+    "dress-show5": "/components/dressShow5/dressShow5"
   },
   "disableScroll": true
 }
