@@ -1,6 +1,5 @@
 {
   "usingComponents": {
-    "swiper-card-container": "/components/swiper/SwiperCardContainer",
     "share-btn": "/components/shareBtn/ShareBtn",
     "input-modal": "/components/inputModal/InputModal"
   },

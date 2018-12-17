@@ -26,7 +26,6 @@
       >输入阅读码</button>
     </view>
   </view>
-
   <!--模态框-->
   <input-modal
     inputModalStatus="{{inputModalStatus}}"

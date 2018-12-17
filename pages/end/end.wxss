@@ -1,17 +1,15 @@
 /* pages/end/end.wxss */
 .end {
   display: flex;
-  justify-content: center;
-  justify-items: center;
   flex-direction: column;
-
   height: 100vh;
   width: 100vw;
   background-color: #000;
   color: white;
 }
+
 .end-title {
-  flex: 1;
+  height: 20vh;
 }
 .end-title image {
   width: 100%;
@@ -19,6 +17,18 @@
   justify-content: center;
   margin-top: -120rpx;
 }
+.end-name {
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+  overflow-y: hidden;
+}
+.end-name image {
+  width: 100%;
+  height: 100%;
+}
+
+
 .bottom-box {
   flex: 4;
   width: 100%;
