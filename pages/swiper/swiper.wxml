@@ -1,5 +1,6 @@
 <view class="swiper">
   <image
+    mode="aspectFill"
     src="{{currentImage}}"
     bindtouchstart="onTouchStart"
     bindtouchmove="onTouchMove"
