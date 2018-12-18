@@ -1,0 +1,39 @@
+.dress-show4 {
+  width: 100%;
+  height: 100%;
+  background: url("http://pjpgeagds.bkt.clouddn.com/4@3x.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.dress-show4-top {
+  margin: 170rpx 0 0 20rpx;
+  display: inline-flex;
+  align-items: center;
+}
+.dress-show4-top image {
+  width: 48rpx;
+  height: 48rpx;
+  margin-right: 10rpx;
+}
+
+.dress-show4-top text {
+  font-size: 20rpx;
+}
+.dress4-modal {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.dress4-modal image:nth-child(1) {
+  width: 80%;
+  height: 80%;
+}
+
+.dress4-modal image:nth-child(2) {
+  width: 48rpx;
+  height: 48rpx;
+  margin-left: -42%;
+}

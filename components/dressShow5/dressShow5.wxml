@@ -1,0 +1,10 @@
+<view class="dress-show5">
+  <view class="dress-show5-top">
+    <image src="../../images/iconfont/dress.png" bindtap="showModal"></image>
+    <text>点击查看造型解析</text>
+  </view>
+  <view class="dress5-modal" wx:if="{{modalStatus}}">
+    <image src="http://pjpgeagds.bkt.clouddn.com/pic3.jpg"></image>
+    <image src="../../images/iconfont/blueclose.png" bindtap="hideModal"></image>
+  </view>
+</view>
