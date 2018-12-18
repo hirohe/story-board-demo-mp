@@ -1,10 +1,12 @@
 // pages/swiper/swiper.js
-
-let startX, endX;
-let moveFlag = true;// 判断执行滑动事件
+const moving_threshold = 50;
 
 Page({
   data: {
+    startX: null,
+    movingX: null,
+    moving: false,
+
     imageList: [{
       url: 'https://miniapp.hirohe.me/images/fcc/clothing-1.jpg'
     },{
@@ -27,32 +29,35 @@ Page({
   },
   // 手指触发
   onTouchStart(e) {
-    startX = e.touches[0].pageX; // 获取触摸时的原点
-    moveFlag = true;
+    // const startX = e.touches[0].pageX; // 获取触摸时的原点
+    // this.setData({ startX });
   },
   // 移动过程
   onTouchMove(e) {
-    endX = e.touches[0].pageX; // 获取触摸时的原点
-    if (moveFlag) {
-      if (endX - startX > 50) {
-        console.log("move right");
-        this.beforeImage();
-        moveFlag = false;
-      }
-      if (startX - endX > 50) {
-        console.log("move left");
-        this.nextImage();
-        moveFlag = false;
-      }
+    const { startX, moving } = this.data;
+    const touchData = e.touches[0];
+
+    if (!this.data.moving) {
+      this.setData({ startX: touchData.clientX, moving: true });
+    } else {
+      const movingX = touchData.clientX - startX;
+      this.setData({ movingX });
     }
   },
   // 移动结束
   onTouchEnd(e) {
-    moveFlag = true; // 回复滑动事件
-  },
-  // 滑动
-  onSwipeOut(e) {
-    console.log(e);
+    const { movingX } = this.data;
+
+    console.log('movingX', movingX);
+    if (Math.abs(movingX) > moving_threshold) {
+      this.setData({ startX: null, movingX: null, moving: false });
+
+      if (movingX < 0) {
+        this.nextImage();
+      } else {
+        this.previousImage();
+      }
+    }
   },
 
   // 下一页
@@ -78,7 +83,7 @@ Page({
     }
   },
   // 上一页
-  beforeImage() {
+  previousImage() {
     const { index, imageList } = this.data;
     if (index <= 0) {
       this.setData({
