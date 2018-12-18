@@ -10,24 +10,18 @@ Page({
 
     backgroundMusicPlaying: false,
 
-    imageList: [{
-      url: 'https://miniapp.hirohe.me/images/fcc/clothing-1.jpg'
-    },{
-      url: 'https://miniapp.hirohe.me/images/fcc/clothing-2.jpg'
-    },{
-      url: 'https://miniapp.hirohe.me/images/fcc/clothing-3.jpg'
-    },{
-      url: 'https://miniapp.hirohe.me/images/fcc/clothing-4.jpg'
-    },{
-      url: 'https://miniapp.hirohe.me/images/fcc/clothing-5.jpg'
-    }],
-    currentImage: '',
-    index: 0,
+    componentNameList: [
+      'sign-image-1',
+      'sign-image-2',
+      'dress-show-1',
+    ],
+    currentComponentName: '',
+    currentComponentIndex: 0,
   },
   onLoad() {
-    const { index, imageList } = this.data;
+    const { currentComponentIndex, componentNameList } = this.data;
     this.setData({
-      currentImage: imageList[index].url
+      currentComponentName: componentNameList[currentComponentIndex]
     });
 
     this.initBackgroundMusic();
@@ -58,54 +52,50 @@ Page({
       this.setData({ startX: null, movingX: null, moving: false });
 
       if (movingX < 0) {
-        this.nextImage();
+        this.nextComponent();
       } else {
-        this.previousImage();
+        this.previousComponent();
       }
     }
   },
 
   // 下一页
-  nextImage() {
-    const { index, imageList } = this.data;
-    if (index === imageList.length-1) {
+  nextComponent() {
+    console.log('on next');
+    const { currentComponentIndex, componentNameList } = this.data;
+    if (currentComponentIndex === componentNameList.length - 1) { // last one
       this.setData({
-        currentImage: imageList[index].url,
+        currentComponentName: componentNameList[currentComponentIndex],
       }, () => {
         wx.navigateTo({
           url: '../end/end',
         });
       })
     } else {
+      const index = currentComponentIndex + 1;
       this.setData({
-        index: index+1
-      }, () => {
-        const { index } = this.data;
-        this.setData({
-          currentImage: imageList[index].url,
-        })
+        currentComponentIndex: index,
+        currentComponentName: componentNameList[index],
       })
     }
   },
   // 上一页
-  previousImage() {
-    const { index, imageList } = this.data;
-    if (index <= 0) {
+  previousComponent() {
+    console.log('on previous');
+    const { currentComponentIndex, componentNameList } = this.data;
+    if (currentComponentIndex <= 0) {
       this.setData({
-        currentImage: imageList[index].url,
+        currentComponentName: componentNameList[currentComponentIndex],
       },() => {
         wx.navigateTo({
           url: '../index/index',
         });
       })
     } else {
+      const index = currentComponentIndex - 1;
       this.setData({
-        index: index-1
-      }, () => {
-        const { index } = this.data;
-        this.setData({
-          currentImage: imageList[index].url,
-        })
+        currentComponentIndex: index,
+        currentComponentName: componentNameList[index],
       })
     }
   },

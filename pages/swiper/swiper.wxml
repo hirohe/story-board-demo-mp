@@ -1,18 +1,17 @@
-<view class="swiper">
+<view
+  class="swiper"
+  bindtouchstart="onTouchStart"
+  bindtouchmove="onTouchMove"
+  bindtouchend="onTouchEnd"
+>
 
   <view class="swiper-music-icon" bindtap="triggerBackgroundMusic">
     <image hidden="{{backgroundMusicPlaying}}" src="../../images/iconfont/videoStop.png"></image>
     <image hidden="{{!backgroundMusicPlaying}}" src="../../images/iconfont/videoStart.gif"></image>
   </view>
 
-  <sign-image2 />
+  <sign-image-1 wx:if="{{currentComponentName === 'sign-image-1'}}" />
+  <sign-image-2 wx:if="{{currentComponentName === 'sign-image-2'}}" />
+  <dress-show-1 wx:if="{{currentComponentName === 'dress-show-1'}}" />
 
-  <!--<image-->
-    <!--mode="aspectFill"-->
-    <!--src="{{currentImage}}"-->
-    <!--bindtouchstart="onTouchStart"-->
-    <!--bindtouchmove="onTouchMove"-->
-    <!--bindtouchend="onTouchEnd"-->
-    <!--bindload="imageLoadEnd"-->
-  <!--&gt;</image>-->
 </view>
