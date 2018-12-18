@@ -15,7 +15,7 @@ Component({
   },
 
   ready() {
-    this.isCanMove = true;
+    // this.isCanMove = true;
   },
   detached() {
   },
@@ -26,16 +26,19 @@ Component({
   methods: {
     onNext() {
       console.log('sign image 1 on next');
-      return this.isCanMove;
+      return true;
     },
-    fontStart() {
-      this.moveStatus = false;
-    },
-    fontMove() {
-      this.moveStatus = false;
-    },
-    fontMoveEnd() {
-      this.moveStatus = true;
-    },
+    // fontStart() {
+    //   this.isCanMove = false;
+    //   return true;
+    // },
+    // fontMove() {
+    //   this.isCanMove = false;
+    //   return true;
+    // },
+    // fontMoveEnd() {
+    //   this.isCanMove = false;
+    //   return true;
+    // },
   }
 });

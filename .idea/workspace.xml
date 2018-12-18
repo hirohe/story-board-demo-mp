@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78d33677-ba18-44fa-bae0-f609f76a2215" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/components/video1/video1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/video1/video1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/video1/video1.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/video1/video1.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/swiper/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/swiper/swiper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/swiper/swiper.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/swiper/swiper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/swiper/swiper.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/swiper/swiper.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/imageScale/imageScale.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/imageScale/imageScale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/imageScale/imageScale.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/imageScale/imageScale.wxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,29 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="swiper.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.js">
+      <file leaf-file-name="imageScale.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/imageScale/imageScale.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1730">
-              <caret line="91" column="86" selection-start-line="91" selection-start-column="86" selection-end-line="91" selection-end-column="86" />
+            <state relative-caret-position="355">
+              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swiper.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.wxml">
+      <file leaf-file-name="imageScale.wxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/imageScale/imageScale.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="30" column="72" lean-forward="true" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="swiper.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="63">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -115,7 +100,6 @@
         <option value="$PROJECT_DIR$/components/end/end.json" />
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/components/end/end.wxss" />
-        <option value="$PROJECT_DIR$/components/imageScale/imageScale.wxml" />
         <option value="$PROJECT_DIR$/components/signImage2/signImage2.wxss" />
         <option value="$PROJECT_DIR$/components/image1/image.js" />
         <option value="$PROJECT_DIR$/components/image1/image1.wxml" />
@@ -135,12 +119,13 @@
         <option value="$PROJECT_DIR$/pages/swiper/swiper.wxss" />
         <option value="$PROJECT_DIR$/components/video/video.wxml" />
         <option value="$PROJECT_DIR$/components/imageScale/imageScale.wxss" />
-        <option value="$PROJECT_DIR$/components/imageScale/imageScale.js" />
         <option value="$PROJECT_DIR$/components/video1/video1.wxss" />
         <option value="$PROJECT_DIR$/components/video1/video1.wxml" />
         <option value="$PROJECT_DIR$/pages/swiper/swiper.js" />
         <option value="$PROJECT_DIR$/pages/swiper/swiper.wxml" />
         <option value="$PROJECT_DIR$/pages/swiper/swiper.json" />
+        <option value="$PROJECT_DIR$/components/imageScale/imageScale.wxml" />
+        <option value="$PROJECT_DIR$/components/imageScale/imageScale.js" />
       </list>
     </option>
   </component>
@@ -176,6 +161,12 @@
               <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
               <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="imageScale" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
@@ -383,7 +374,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85141000" />
+    <option name="totallyTimeSpent" value="85848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -732,20 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/imageScale/imageScale.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/imageScale/imageScale.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/video1/video1.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -766,6 +743,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -780,10 +764,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.json">
+    <entry file="file://$PROJECT_DIR$/components/imageScale/imageScale.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="355">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/imageScale/imageScale.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
