@@ -1,6 +1,5 @@
 {
   "disableScroll": true,
   "usingComponents": {
-    "bg-music": "/components/bgMusic/bgMusic"
   }
 }

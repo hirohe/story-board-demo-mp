@@ -1,11 +1,14 @@
 // pages/swiper/swiper.js
 const moving_threshold = 50;
+const backgroundMusicSrc = 'http://pjpgeagds.bkt.clouddn.com/%E5%8D%9C%E5%87%A1%20_%20%E9%99%88%E7%AB%8B%E5%86%9C%20_%20%E7%A7%A6%E5%A5%8B%20_%20%E8%94%A1%E5%BE%90%E5%9D%A4%20_%20%E5%BE%90%E5%9C%A3%E6%81%A9%20_%20%E8%8C%83%E4%B8%9E%E4%B8%9E%20_%20%E9%92%B1%E6%AD%A3%E6%98%8A%20_%20%E7%8E%8B%E5%AD%90%E5%BC%82%20_%20%E6%9C%B1%E6%AD%A3%E5%BB%B7%20_%20%E6%9C%B1%E6%98%9F%E6%9D%B0%20-%20Mack%20Daddy%20%28Live%29.mp3';
 
 Page({
   data: {
     startX: null,
     movingX: null,
     moving: false,
+
+    backgroundMusicPlaying: false,
 
     imageList: [{
       url: 'https://miniapp.hirohe.me/images/fcc/clothing-1.jpg'
@@ -26,6 +29,8 @@ Page({
     this.setData({
       currentImage: imageList[index].url
     });
+
+    this.initBackgroundMusic();
   },
   // 手指触发
   onTouchStart(e) {
@@ -104,6 +109,39 @@ Page({
       })
     }
   },
+
+  initBackgroundMusic() {
+    this.innerAudioContext = wx.createInnerAudioContext();
+    this.innerAudioContext.autoplay = true;
+    this.innerAudioContext.src = backgroundMusicSrc;
+    this.innerAudioContext.onPlay(() => {
+      this.setData({ backgroundMusicPlaying: true });
+    });
+    this.innerAudioContext.onPause(() => {
+      this.setData({ backgroundMusicPlaying: false });
+    });
+  },
+
+  triggerBackgroundMusic() {
+    if (this.innerAudioContext) {
+      if (this.data.backgroundMusicPlaying) {
+        console.log('set pause')
+        this.innerAudioContext.pause();
+      } else {
+        console.log('set play')
+        this.innerAudioContext.play();
+      }
+    }
+  },
+
+  pauseBackgroundMusic() {
+    this.innerAudioContext && this.innerAudioContext.pause();
+  },
+
+  stopBackgroundMusic() {
+    this.innerAudioContext && this.innerAudioContext.stop();
+  },
+
   imageLoadEnd() {
   },
   onHide() {
