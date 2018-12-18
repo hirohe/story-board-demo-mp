@@ -1,7 +1,8 @@
 <view class="swiper">
 
   <view class="swiper-music-icon" bindtap="triggerBackgroundMusic">
-    <image src="../../images/cool@2x.png"></image>
+    <image hidden="{{backgroundMusicPlaying}}" src="../../images/iconfont/videoStop.png"></image>
+    <image hidden="{{!backgroundMusicPlaying}}" src="../../images/iconfont/videoStart.gif"></image>
   </view>
 
   <image

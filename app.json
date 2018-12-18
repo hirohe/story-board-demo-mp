@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/swiper/swiper",
+    "pages/index/index",
     "pages/end/end"
 
   ],

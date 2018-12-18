@@ -8,6 +8,9 @@
 }
 
 .swiper-music-icon {
+  position: absolute;
+  top: 20rpx;
+  right: 0;
   height: 100rpx;
-  width: 100rpx;
+  width: 150rpx;
 }

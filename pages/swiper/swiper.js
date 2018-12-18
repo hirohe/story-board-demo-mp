@@ -125,10 +125,10 @@ Page({
   triggerBackgroundMusic() {
     if (this.innerAudioContext) {
       if (this.data.backgroundMusicPlaying) {
-        console.log('set pause')
+        console.log('set pause');
         this.innerAudioContext.pause();
       } else {
-        console.log('set play')
+        console.log('set play');
         this.innerAudioContext.play();
       }
     }

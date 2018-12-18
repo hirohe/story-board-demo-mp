@@ -32,7 +32,7 @@
 .index-name {
   width: 100%;
   text-align: center;
-  margin-top: 616rpx;
+  margin-top: 680rpx;
 }
 .index-play {
   margin: auto;
