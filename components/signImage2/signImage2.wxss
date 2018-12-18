@@ -13,16 +13,20 @@
   justify-content: space-between;
 }
 
-.sign-image2-bottom {
-  width: 80%;
+.sign-close-btn {
+  width: 70%;
+  display: flex;
 }
-/*.sign {*/
-  /*width: 50%;*/
-/*}*/
 
-.sign-image2-bottom .close-btn{
+.sign-close-btn .close-btn{
   width: 40rpx;
   height: 40rpx;
+  margin: 20rpx;
+  opacity: .6;
+}
+.sign {
+  width: 90%;
+  margin: -100rpx 0 0 -100rpx;
 }
 .sign-image2-bottom button {
   margin: 100rpx 20rpx 0 0;

@@ -4,18 +4,23 @@
     src="http://pjpgeagds.bkt.clouddn.com/1@3x.png"
   />
 
-
   <view class="sign-image2-bottom">
-    <view class="sign-close-btn">
+
+    <view class="sign-close-btn" hidden="{{!signStatus}}">
+
       <image
+        bindtap="hideSign"
         class="close-btn"
         src="../../images/iconfont/close.png" />
+
       <image
         class="sign"
         mode="widthFix"
         src="http://pjpgeagds.bkt.clouddn.com/%E7%AD%BE%E5%90%8D%E5%AD%97%E6%A9%99%E8%89%B2.png"></image>
+
     </view>
 
     <button>长按保存图片</button>
+
   </view>
 </view>
