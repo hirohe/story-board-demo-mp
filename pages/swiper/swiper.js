@@ -13,7 +13,16 @@ Page({
     componentNameList: [
       'sign-image-1',
       'sign-image-2',
+      'sign-image-3',
+      'sign-image-4',
+      'image-scale',
+      'font-swiper',
       'dress-show-1',
+      'dress-show-2',
+      'dress-show-3',
+      'dress-show-4',
+      'dress-show-5',
+      'end'
     ],
     currentComponentName: '',
     currentComponentIndex: 0,
@@ -68,10 +77,6 @@ Page({
     if (currentComponentIndex === componentNameList.length - 1) { // last one
       this.setData({
         currentComponentName: componentNameList[currentComponentIndex],
-      }, () => {
-        wx.navigateTo({
-          url: '../end/end',
-        });
       })
     } else {
       const index = currentComponentIndex + 1;
@@ -88,10 +93,6 @@ Page({
     if (currentComponentIndex <= 0) {
       this.setData({
         currentComponentName: componentNameList[currentComponentIndex],
-      },() => {
-        wx.navigateTo({
-          url: '../index/index',
-        });
       })
     } else {
       const index = currentComponentIndex - 1;

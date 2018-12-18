@@ -1,13 +1,25 @@
-Page({
+Component({
+  options: {
+    multipleSlots: true
+  },
+  /**
+   * 组件的属性列表
+   */
+  properties: {
+  },
+
+  /**
+   * 组件的初始数据
+   */
   data: {
     animationData: {},
   },
-  onShow: function () {
+
+  ready() {
     const animation = wx.createAnimation({
       duration: 100,
     });
 
-    this.animation = animation;
     animation.translateY(0).step();
 
     this.setData({
@@ -21,10 +33,16 @@ Page({
       })
     }.bind(this), 100)
   },
-  onHide() {
+  detached() {
     clearInterval(this.timer);
   },
-  onUnload() {
-    clearInterval(this.timer);
+  /**
+   * 组件的方法列表
+   */
+  methods: {
+    onNext() {
+      console.log('sign image 1 on next');
+      return true;
+    }
   }
 });

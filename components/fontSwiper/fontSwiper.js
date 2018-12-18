@@ -46,5 +46,9 @@ Component({
     hideInputModal() {
       this.triggerEvent("hideInputModalStatus", false);
     },
+    onNext() {
+      console.log('sign image 1 on next');
+      return true;
+    }
   }
 });

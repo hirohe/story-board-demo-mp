@@ -15,7 +15,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: -120rpx;
+  margin-top: -50rpx;
 }
 .end-name {
   height: 80vh;

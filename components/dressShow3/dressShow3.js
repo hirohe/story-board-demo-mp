@@ -30,5 +30,9 @@ Component({
     hideModal() {
       this.setData({modalStatus: false})
     },
+    onNext() {
+      console.log('sign image 1 on next');
+      return true;
+    }
   }
 });

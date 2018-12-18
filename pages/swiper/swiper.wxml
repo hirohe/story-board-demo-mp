@@ -12,6 +12,17 @@
 
   <sign-image-1 wx:if="{{currentComponentName === 'sign-image-1'}}" class="slide" />
   <sign-image-2 wx:if="{{currentComponentName === 'sign-image-2'}}" class="slide" />
+  <sign-image-3 wx:if="{{currentComponentName === 'sign-image-3'}}" class="slide" />
+  <sign-image-4 wx:if="{{currentComponentName === 'sign-image-4'}}" class="slide" />
+
+  <image-scale wx:if="{{currentComponentName === 'image-scale'}}" class="slide" />
+  <font-swiper wx:if="{{currentComponentName === 'font-swiper'}}" class="slide" />
+
   <dress-show-1 wx:if="{{currentComponentName === 'dress-show-1'}}" class="slide" />
+  <dress-show-2 wx:if="{{currentComponentName === 'dress-show-2'}}" class="slide" />
+  <dress-show-3 wx:if="{{currentComponentName === 'dress-show-3'}}" class="slide" />
+  <dress-show-4 wx:if="{{currentComponentName === 'dress-show-4'}}" class="slide" />
+  <dress-show-5 wx:if="{{currentComponentName === 'dress-show-5'}}" class="slide" />
+  <end wx:if="{{currentComponentName === 'end'}}" class="slide" />
 
 </view>

@@ -1,0 +1,24 @@
+<view class="sign-image3">
+  <image
+    mode="aspectFill"
+    src="http://pjpgeagds.bkt.clouddn.com/9@3x.png"
+  />
+
+  <view class="sign-image3-bottom">
+
+    <view class="sign-close-btn" hidden="{{!signStatus}}">
+
+      <image
+        class="sign"
+        mode="widthFix"
+        src="http://pjpgeagds.bkt.clouddn.com/%E7%99%BD%E8%89%B2.png"></image>
+
+      <image
+        bindtap="hideSign"
+        class="close-btn"
+        src="../../images/iconfont/close.png" />
+
+    </view>
+
+  </view>
+</view>

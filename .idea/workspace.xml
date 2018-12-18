@@ -2,10 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78d33677-ba18-44fa-bae0-f609f76a2215" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/components/signImage3/signImage3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/signImage3/signImage3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/signImage3/signImage3.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/signImage3/signImage3.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/signImage4/signImage4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/signImage4/signImage4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/signImage4/signImage4.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/signImage4/signImage4.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dressShow1/dressShow1.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/dressShow1/dressShow1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dressShow1/dressShow1.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/dressShow1/dressShow1.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dressShow2/dressShow2.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/dressShow2/dressShow2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dressShow2/dressShow2.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/dressShow2/dressShow2.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dressShow3/dressShow3.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/dressShow3/dressShow3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dressShow3/dressShow3.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/dressShow3/dressShow3.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dressShow4/dressShow4.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/dressShow4/dressShow4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dressShow4/dressShow4.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/dressShow4/dressShow4.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dressShow5/dressShow5.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/dressShow5/dressShow5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dressShow5/dressShow5.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/dressShow5/dressShow5.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/fontSwiper/fontSwiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/fontSwiper/fontSwiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/imageScale/imageScale.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/imageScale/imageScale.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/signImage2/signImage2.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/signImage2/signImage2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/signImage2/signImage2.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/signImage2/signImage2.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/signImage2/signImage2.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/signImage2/signImage2.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/end/end.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/end/end.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/end/end.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/end/end.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/end/end.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/end/end.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/end/end.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/end/end.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/swiper/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/swiper/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/swiper/swiper.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/swiper/swiper.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/swiper/swiper.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/swiper/swiper.wxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +45,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="swiper.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.wxml">
+      <file leaf-file-name="swiper.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="61" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="61" />
+            <state relative-caret-position="310">
+              <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="end.wxss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/end/end.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -31,62 +66,26 @@
       <file leaf-file-name="swiper.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="336">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signImage2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/signImage2/signImage2.js">
+      <file leaf-file-name="swiper.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="525">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signImage2.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/signImage2/signImage2.wxml">
+      <file leaf-file-name="end.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/end/end.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signImage2.wxss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/signImage2/signImage2.wxss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="swiper.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="63" column="42" selection-start-line="63" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signImage1.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/signImage1/signImage1.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signImage1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/signImage1/signImage1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            <state relative-caret-position="441">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -125,24 +124,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/end/end1.wxss" />
-        <option value="$PROJECT_DIR$/pages/welcome/welcome.wxss" />
-        <option value="$PROJECT_DIR$/pages/welcome/welcome.json" />
-        <option value="$PROJECT_DIR$/pages/end/end.json" />
-        <option value="$PROJECT_DIR$/components/inputModal/InputModal.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/pages/welcome/welcome.js" />
-        <option value="$PROJECT_DIR$/pages/index/index.js" />
-        <option value="$PROJECT_DIR$/pages/test/test.wxss" />
-        <option value="$PROJECT_DIR$/pages/test/test.js" />
-        <option value="$PROJECT_DIR$/pages/test/test.wxml" />
-        <option value="$PROJECT_DIR$/pages/test/test.json" />
         <option value="$PROJECT_DIR$/components/fontSwiper/fontSwiper.json" />
-        <option value="$PROJECT_DIR$/components/fontSwiper/fontSwiper.js" />
         <option value="$PROJECT_DIR$/components/fontSwiper/fontSwiper.wxml" />
         <option value="$PROJECT_DIR$/components/fontSwiper/fontSwiper.wxss" />
         <option value="$PROJECT_DIR$/components/imageScale/imageScale.wss" />
-        <option value="$PROJECT_DIR$/components/imageScale/imageScale.js" />
         <option value="$PROJECT_DIR$/components/imageScale/imageScale.json" />
         <option value="$PROJECT_DIR$/components/imageScale/imageScale.wxml" />
         <option value="$PROJECT_DIR$/components/imageScale/imageScale.wxss" />
@@ -150,32 +135,46 @@
         <option value="$PROJECT_DIR$/pages/end/end.wxml" />
         <option value="$PROJECT_DIR$/pages/end/end.wxss" />
         <option value="$PROJECT_DIR$/components/dressShow1/dressShow1.json" />
-        <option value="$PROJECT_DIR$/components/dressShow1/dressShow1.js" />
-        <option value="$PROJECT_DIR$/components/dressShow1/dressShow1.wxss" />
         <option value="$PROJECT_DIR$/components/dressShow2/dressShow2.wxml" />
         <option value="$PROJECT_DIR$/components/dressShow1/dressShow1.wxml" />
         <option value="$PROJECT_DIR$/components/dressShow4/dressShow4.wxml" />
-        <option value="$PROJECT_DIR$/components/dressShow2/dressShow2.wxss" />
-        <option value="$PROJECT_DIR$/components/dressShow3/dressShow3.wxss" />
         <option value="$PROJECT_DIR$/components/dressShow3/dressShow3.wxml" />
         <option value="$PROJECT_DIR$/pages/index/index.json" />
         <option value="$PROJECT_DIR$/components/dressShow5/dressShow5.wxml" />
-        <option value="$PROJECT_DIR$/components/dressShow5/dressShow5.wxss" />
-        <option value="$PROJECT_DIR$/components/dressShow4/dressShow4.wxss" />
         <option value="$PROJECT_DIR$/pages/index/index.wxml" />
-        <option value="$PROJECT_DIR$/pages/swiper/swiper.js" />
         <option value="$PROJECT_DIR$/pages/index/index.wxss" />
-        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/swiper/swiper.wxss" />
         <option value="$PROJECT_DIR$/components/signImage1/signImage1.js" />
         <option value="$PROJECT_DIR$/components/signImage1/signImage1.json" />
         <option value="$PROJECT_DIR$/components/signImage1/signImage1.wxml" />
         <option value="$PROJECT_DIR$/components/signImage1/signImage1.wxss" />
-        <option value="$PROJECT_DIR$/pages/swiper/swiper.wxml" />
-        <option value="$PROJECT_DIR$/pages/swiper/swiper.json" />
-        <option value="$PROJECT_DIR$/components/signImage2/signImage2.js" />
         <option value="$PROJECT_DIR$/components/signImage2/signImage2.wxml" />
         <option value="$PROJECT_DIR$/components/signImage2/signImage2.wxss" />
+        <option value="$PROJECT_DIR$/components/signImage2/signImage2.js" />
+        <option value="$PROJECT_DIR$/components/signImage3/signImage3.js" />
+        <option value="$PROJECT_DIR$/components/signImage3/signImage3.wxss" />
+        <option value="$PROJECT_DIR$/components/signImage3/signImage3.wxml" />
+        <option value="$PROJECT_DIR$/components/signImage4/signImage4.wxml" />
+        <option value="$PROJECT_DIR$/components/signImage4/signImage4.wxss" />
+        <option value="$PROJECT_DIR$/components/imageScale/imageScale.js" />
+        <option value="$PROJECT_DIR$/components/fontSwiper/fontSwiper.js" />
+        <option value="$PROJECT_DIR$/components/dressShow5/dressShow5.js" />
+        <option value="$PROJECT_DIR$/components/dressShow4/dressShow4.js" />
+        <option value="$PROJECT_DIR$/components/dressShow3/dressShow3.js" />
+        <option value="$PROJECT_DIR$/components/dressShow2/dressShow2.js" />
+        <option value="$PROJECT_DIR$/components/dressShow1/dressShow1.js" />
+        <option value="$PROJECT_DIR$/components/dressShow1/dressShow1.wxss" />
+        <option value="$PROJECT_DIR$/components/dressShow2/dressShow2.wxss" />
+        <option value="$PROJECT_DIR$/components/dressShow3/dressShow3.wxss" />
+        <option value="$PROJECT_DIR$/components/dressShow4/dressShow4.wxss" />
+        <option value="$PROJECT_DIR$/components/dressShow5/dressShow5.wxss" />
+        <option value="$PROJECT_DIR$/components/end/end.js" />
+        <option value="$PROJECT_DIR$/components/end/end.json" />
+        <option value="$PROJECT_DIR$/pages/swiper/swiper.json" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/swiper/swiper.wxml" />
+        <option value="$PROJECT_DIR$/components/end/end.wxss" />
+        <option value="$PROJECT_DIR$/pages/swiper/swiper.js" />
       </list>
     </option>
   </component>
@@ -222,30 +221,12 @@
               <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
               <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="inputModal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="shareBtn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="signImage1" type="462c0819:PsiDirectoryNode" />
+              <item name="end" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
               <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
@@ -434,7 +415,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73920000" />
+    <option name="totallyTimeSpent" value="77158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -527,173 +508,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add end page" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/end/end.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/end/end.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow1/dressShow1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/imageScale/imageScale.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="524" selection-start-line="6" selection-start-column="524" selection-end-line="6" selection-end-column="524" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/imageScale/imageScale.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/fontSwiper/fontSwiper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="15" selection-end-line="49" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/fontSwiper/fontSwiper.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="20" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/iconfont/dress.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/iconfont/close.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow1/dressShow1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow1/dressShow1.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/imageScale/imageScale.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="12" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow2/dressShow2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow2/dressShow2.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow1/dressShow1.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow3/dressShow3.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow4/dressShow4.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow4/dressShow4.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow2/dressShow2.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow2/dressShow2.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow3/dressShow3.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow3/dressShow3.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/cool@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow4/dressShow4.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow5/dressShow5.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow4/dressShow4.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow5/dressShow5.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/iconfont/videoStop.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -707,31 +521,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="61" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow5/dressShow5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow5/dressShow5.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -763,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/inputModal/InputModal.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
@@ -791,6 +577,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/signImage2/signImage2.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/signImage2/signImage2.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/signImage2/signImage2.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/signImage1/signImage1.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -798,48 +601,242 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/signImage1/signImage1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/signImage2/signImage2.json">
+    <entry file="file://$PROJECT_DIR$/components/signImage3/signImage3.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.js">
+    <entry file="file://$PROJECT_DIR$/components/signImage1/signImage1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="63" column="42" selection-start-line="63" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="61" />
+        <state relative-caret-position="510">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/signImage2/signImage2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="636">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/signImage2/signImage2.wxml">
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="84">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/signImage2/signImage2.wxss">
+    <entry file="file://$PROJECT_DIR$/components/signImage3/signImage3.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="469">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/signImage3/signImage3.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.wxss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dressShow4/dressShow4.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/signImage4/signImage4.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/signImage4/signImage4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dressShow1/dressShow1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dressShow2/dressShow2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dressShow3/dressShow3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dressShow4/dressShow4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/fontSwiper/fontSwiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/imageScale/imageScale.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/signImage4/signImage4.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/signImage3/signImage3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/imageScale/imageScale.wxml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dressShow1/dressShow1.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dressShow1/dressShow1.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dressShow2/dressShow2.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dressShow3/dressShow3.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dressShow4/dressShow4.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dressShow5/dressShow5.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dressShow5/dressShow5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-end-line="37" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/end/end.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/dressShow5/dressShow5.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/end/end.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/end/end.wxml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/end/end.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/end/end.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
         </state>
       </provider>
     </entry>
