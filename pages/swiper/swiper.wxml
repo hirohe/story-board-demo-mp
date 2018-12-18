@@ -5,12 +5,14 @@
     <image hidden="{{!backgroundMusicPlaying}}" src="../../images/iconfont/videoStart.gif"></image>
   </view>
 
-  <image
-    mode="aspectFill"
-    src="{{currentImage}}"
-    bindtouchstart="onTouchStart"
-    bindtouchmove="onTouchMove"
-    bindtouchend="onTouchEnd"
-    bindload="imageLoadEnd"
-  ></image>
+  <sign-image2 />
+
+  <!--<image-->
+    <!--mode="aspectFill"-->
+    <!--src="{{currentImage}}"-->
+    <!--bindtouchstart="onTouchStart"-->
+    <!--bindtouchmove="onTouchMove"-->
+    <!--bindtouchend="onTouchEnd"-->
+    <!--bindload="imageLoadEnd"-->
+  <!--&gt;</image>-->
 </view>

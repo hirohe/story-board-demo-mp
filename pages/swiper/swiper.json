@@ -1,5 +1,7 @@
 {
   "disableScroll": true,
   "usingComponents": {
+    "sign-image1": "/components/signImage1/signImage1",
+    "sign-image2": "/components/signImage2/signImage2"
   }
 }

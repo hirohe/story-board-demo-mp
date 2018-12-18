@@ -1,0 +1,9 @@
+<view class="sign-image1">
+  <image
+    mode="aspectFill"
+    src="http://pjpgeagds.bkt.clouddn.com/1@3x.png"
+  ></image>
+  <view class="sign-image1-name">
+    <image src="http://pjpgeagds.bkt.clouddn.com/%E5%90%8D%E5%AD%97.png" mode="widthFix"></image>
+  </view>
+</view>

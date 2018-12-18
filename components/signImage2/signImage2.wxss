@@ -1,0 +1,40 @@
+.sign-image2 {
+  width: 100%;
+  height: 100%;
+}
+.sign-image2 image {
+  width: 100%;
+  height: 100%;
+}
+.sign-image2-bottom {
+  width: 100%;
+  margin-top: -280rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-image2-bottom {
+  width: 80%;
+}
+/*.sign {*/
+  /*width: 50%;*/
+/*}*/
+
+.sign-image2-bottom .close-btn{
+  width: 40rpx;
+  height: 40rpx;
+}
+.sign-image2-bottom button {
+  margin: 100rpx 20rpx 0 0;
+  width: 30%;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 25rpx;
+  color: white;
+  background: orange;
+  opacity: .4;
+  border-radius: 0;
+}
+button::after{
+  border: none;
+}
