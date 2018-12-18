@@ -23,5 +23,9 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    onNext() {
+      console.log('sign image 1 on next');
+      return true;
+    }
   }
 });

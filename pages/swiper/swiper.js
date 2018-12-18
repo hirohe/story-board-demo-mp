@@ -61,6 +61,8 @@ Page({
 
   // 下一页
   nextComponent() {
+    console.log(this.selectComponent('.slide').onNext())
+
     console.log('on next');
     const { currentComponentIndex, componentNameList } = this.data;
     if (currentComponentIndex === componentNameList.length - 1) { // last one

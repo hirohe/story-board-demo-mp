@@ -10,8 +10,8 @@
     <image hidden="{{!backgroundMusicPlaying}}" src="../../images/iconfont/videoStart.gif"></image>
   </view>
 
-  <sign-image-1 wx:if="{{currentComponentName === 'sign-image-1'}}" />
-  <sign-image-2 wx:if="{{currentComponentName === 'sign-image-2'}}" />
-  <dress-show-1 wx:if="{{currentComponentName === 'dress-show-1'}}" />
+  <sign-image-1 wx:if="{{currentComponentName === 'sign-image-1'}}" class="slide" />
+  <sign-image-2 wx:if="{{currentComponentName === 'sign-image-2'}}" class="slide" />
+  <dress-show-1 wx:if="{{currentComponentName === 'dress-show-1'}}" class="slide" />
 
 </view>
