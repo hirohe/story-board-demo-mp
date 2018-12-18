@@ -21,6 +21,7 @@
   font-size: 40rpx;
 }
 .desc {
+  overflow: auto;
   font-size: 30rpx;
   padding: 40rpx 100rpx;
 }

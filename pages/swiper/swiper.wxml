@@ -5,7 +5,7 @@
   bindtouchend="onTouchEnd"
 >
 
-  <view class="swiper-music-icon" bindtap="triggerBackgroundMusic">
+  <view class="swiper-music-icon" bindtap="triggerBackgroundMusic" wx:if="{{play_stop_btn}}">
     <image hidden="{{backgroundMusicPlaying}}" src="../../images/iconfont/videoStop.png"></image>
     <image hidden="{{!backgroundMusicPlaying}}" src="../../images/iconfont/videoStart.gif"></image>
   </view>
@@ -14,10 +14,15 @@
   <sign-image-2 wx:if="{{currentComponentName === 'sign-image-2'}}" class="slide" />
   <sign-image-3 wx:if="{{currentComponentName === 'sign-image-3'}}" class="slide" />
   <sign-image-4 wx:if="{{currentComponentName === 'sign-image-4'}}" class="slide" />
-
+  <image1 wx:if="{{currentComponentName === 'image1'}}" class="slide" />
   <image-scale wx:if="{{currentComponentName === 'image-scale'}}" class="slide" />
+  <image2 wx:if="{{currentComponentName === 'image2'}}" class="slide" />
+  <image3 wx:if="{{currentComponentName === 'image3'}}" class="slide" />
+  <image4 wx:if="{{currentComponentName === 'image4'}}" class="slide" />
+  <image5 wx:if="{{currentComponentName === 'image5'}}" class="slide" />
+  <image6 wx:if="{{currentComponentName === 'image6'}}" class="slide" />
   <font-swiper wx:if="{{currentComponentName === 'font-swiper'}}" class="slide" />
-
+  <video wx:if="{{currentComponentName === 'video'}}" class="slide" />
   <dress-show-1 wx:if="{{currentComponentName === 'dress-show-1'}}" class="slide" />
   <dress-show-2 wx:if="{{currentComponentName === 'dress-show-2'}}" class="slide" />
   <dress-show-3 wx:if="{{currentComponentName === 'dress-show-3'}}" class="slide" />

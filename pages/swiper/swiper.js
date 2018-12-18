@@ -9,14 +9,22 @@ Page({
     moving: false,
 
     backgroundMusicPlaying: false,
+    play_stop_btn: true,
 
     componentNameList: [
       'sign-image-1',
       'sign-image-2',
       'sign-image-3',
       'sign-image-4',
+      'image1',
       'image-scale',
+      'image2',
+      'image3',
+      'image4',
+      'image5',
+      'image6',
       'font-swiper',
+      'video',
       'dress-show-1',
       'dress-show-2',
       'dress-show-3',
@@ -80,6 +88,11 @@ Page({
       })
     } else {
       const index = currentComponentIndex + 1;
+      if(componentNameList[index] === 'video') {
+        this.pauseBackgroundMusic();
+      } else {
+        this.playBackgroundMusic();
+      }
       this.setData({
         currentComponentIndex: index,
         currentComponentName: componentNameList[index],
@@ -88,6 +101,7 @@ Page({
   },
   // 上一页
   previousComponent() {
+    if (!this.selectComponent('.slide').onNext()) return;
     console.log('on previous');
     const { currentComponentIndex, componentNameList } = this.data;
     if (currentComponentIndex <= 0) {
@@ -96,6 +110,11 @@ Page({
       })
     } else {
       const index = currentComponentIndex - 1;
+      if(componentNameList[index] === 'video') {
+        this.pauseBackgroundMusic();
+      } else {
+        this.playBackgroundMusic();
+      }
       this.setData({
         currentComponentIndex: index,
         currentComponentName: componentNameList[index],
@@ -128,15 +147,16 @@ Page({
   },
 
   pauseBackgroundMusic() {
+    this.setData({play_stop_btn: false}, () => {
+      this.innerAudioContext && this.innerAudioContext.pause();
+    });
+  },
+  playBackgroundMusic() {
+    this.setData({play_stop_btn: true}, () => {
+      this.innerAudioContext && this.innerAudioContext.play();
+    });
+  },
+  onUnload() {
     this.innerAudioContext && this.innerAudioContext.pause();
   },
-
-  stopBackgroundMusic() {
-    this.innerAudioContext && this.innerAudioContext.stop();
-  },
-
-  imageLoadEnd() {
-  },
-  onHide() {
-  }
 });

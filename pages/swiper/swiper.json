@@ -5,10 +5,15 @@
     "sign-image-2": "/components/signImage2/signImage2",
     "sign-image-3": "/components/signImage3/signImage3",
     "sign-image-4": "/components/signImage4/signImage4",
-
-
+    "image1": "/components/image1/image1",
     "image-scale": "/components/imageScale/imageScale",
+    "image2": "/components/image2/image2",
+    "image3": "/components/image3/image3",
+    "image4": "/components/image4/image4",
+    "image5": "/components/image5/image5",
+    "image6": "/components/image6/image6",
     "font-swiper": "/components/fontSwiper/fontSwiper",
+    "video": "/components/video/video",
     "dress-show-1": "/components/dressShow1/dressShow1",
     "dress-show-2": "/components/dressShow2/dressShow2",
     "dress-show-3": "/components/dressShow3/dressShow3",

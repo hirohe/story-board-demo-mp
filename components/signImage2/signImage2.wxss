@@ -7,6 +7,7 @@
   height: 100%;
 }
 .sign-image2-bottom {
+  position: relative;
   width: 100%;
   margin-top: -280rpx;
   display: flex;
@@ -29,7 +30,9 @@
   margin: -100rpx 0 0 -100rpx;
 }
 .sign-image2-bottom button {
-  margin: 100rpx 20rpx 0 0;
+  position: absolute;
+  right: 20rpx;
+  bottom: 51rpx;
   width: 30%;
   height: 60rpx;
   line-height: 60rpx;

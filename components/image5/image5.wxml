@@ -1,0 +1,6 @@
+<view class="image5">
+  <image
+    mode="aspectFill"
+    src="http://pjpgeagds.bkt.clouddn.com/8@3x.png"
+  ></image>
+</view>
