@@ -1,0 +1,4 @@
+<!--components/bgMusic.wxml-->
+<view>
+  <image src=""></image>
+</view>
