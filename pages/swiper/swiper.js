@@ -30,6 +30,7 @@ Page({
       'dress-show-3',
       'dress-show-4',
       'dress-show-5',
+      'video1',
       'end',
     ],
     currentComponentName: '',
@@ -88,10 +89,15 @@ Page({
       })
     } else {
       const index = currentComponentIndex + 1;
-      if(componentNameList[index] === 'video') {
+      if(componentNameList[index] === 'video' || componentNameList[index] === 'video1') {
         this.pauseBackgroundMusic();
       } else {
-        this.playBackgroundMusic();
+        const { play_stop_btn } = this.data;
+        if(!play_stop_btn) {
+          this.setData({play_stop_btn: true}, () => {
+            this.playBackgroundMusic();
+          });
+        }
       }
       this.setData({
         currentComponentIndex: index,
@@ -110,10 +116,15 @@ Page({
       })
     } else {
       const index = currentComponentIndex - 1;
-      if(componentNameList[index] === 'video') {
+      if(componentNameList[index] === 'video' || componentNameList[index] === 'video1') {
         this.pauseBackgroundMusic();
       } else {
-        this.playBackgroundMusic();
+        const { play_stop_btn } = this.data;
+        if(!play_stop_btn) {
+          this.setData({play_stop_btn: true}, () => {
+            this.playBackgroundMusic();
+          });
+        }
       }
       this.setData({
         currentComponentIndex: index,
@@ -152,9 +163,7 @@ Page({
     });
   },
   playBackgroundMusic() {
-    this.setData({play_stop_btn: true}, () => {
-      this.innerAudioContext && this.innerAudioContext.play();
-    });
+    this.innerAudioContext && this.innerAudioContext.play();
   },
   onUnload() {
     this.innerAudioContext && this.innerAudioContext.pause();

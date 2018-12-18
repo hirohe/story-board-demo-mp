@@ -1,0 +1,8 @@
+<view class="video1">
+  <video
+    src="http://pjpgeagds.bkt.clouddn.com/ca5b696bb53f01bdb22b10bf238a9120.mp4"
+    autoplay="{{true}}"
+    controls
+  ></video>
+  video
+</view>

@@ -28,6 +28,7 @@
   <dress-show-3 wx:if="{{currentComponentName === 'dress-show-3'}}" class="slide" />
   <dress-show-4 wx:if="{{currentComponentName === 'dress-show-4'}}" class="slide" />
   <dress-show-5 wx:if="{{currentComponentName === 'dress-show-5'}}" class="slide" />
+  <video1 wx:if="{{currentComponentName === 'video1'}}" class="slide" />
   <end wx:if="{{currentComponentName === 'end'}}" class="slide" />
 
 </view>
