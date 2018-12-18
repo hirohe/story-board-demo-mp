@@ -24,17 +24,17 @@ Component({
 
     this.setData({
       animationData: animation.export()
+    }, () => {
+      this.timer = setTimeout(() => {
+        animation.translateY('-100%').step({ duration: 15000 });
+        this.setData({
+          animationData: animation.export()
+        });
+      }, 2000);
     });
-
-    this.timer = setTimeout(function () {
-      animation.translateY(-500).step({duration: 9000});
-      this.setData({
-        animationData: animation.export()
-      })
-    }.bind(this), 100)
   },
   detached() {
-    clearInterval(this.timer);
+    this.timer && clearTimeout(this.timer);
   },
   /**
    * 组件的方法列表

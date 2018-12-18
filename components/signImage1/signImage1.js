@@ -26,6 +26,14 @@ Component({
     onNext() {
       console.log('sign image 1 on next');
       return true;
+    },
+    onImageLoad() {
+      wx.getImageInfo({
+        src: 'http://pjpgeagds.bkt.clouddn.com/%E5%90%8D%E5%AD%97.png',
+        success(res) {
+          console.log(res)
+        }
+      })
     }
   }
 });

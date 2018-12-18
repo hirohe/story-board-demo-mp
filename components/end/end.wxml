@@ -1,10 +1,12 @@
 <view class="end">
   <view class="end-title">
-    <image src="../../images/iconfont/logo.jpg"></image>
+    <image src="../../images/iconfont/logo.jpg" mode="widthFix"></image>
   </view>
   <view class="end-name">
     <image
       animation="{{animationData}}"
-      src="http://pjpgeagds.bkt.clouddn.com/wenzi.jpg"/>
+      src="http://pjpgeagds.bkt.clouddn.com/wenzi.jpg"
+      mode="widthFix"
+    />
   </view>
 </view>

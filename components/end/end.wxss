@@ -9,7 +9,8 @@
 }
 
 .end-title {
-  height: 20vh;
+  width: 80vw;
+  margin: auto;
 }
 .end-title image {
   width: 100%;
@@ -25,5 +26,4 @@
 }
 .end-name image {
   width: 100%;
-  height: 100%;
 }

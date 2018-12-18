@@ -1,3 +1,8 @@
-<view class="font-swiper {{currentIndex === 3? 'font-80': ''}}">
+<view
+  class="font-swiper {{currentIndex === fontList.length - 1? 'font-80': ''}}"
+  animation="{{animationData}}"
+  bindtransitionend="onTransitionEnd"
+  style="opacity: {{fontOpacity}}"
+>
   {{currentFont}}
 </view>

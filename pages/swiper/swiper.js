@@ -22,7 +22,7 @@ Page({
       'dress-show-3',
       'dress-show-4',
       'dress-show-5',
-      'end'
+      'end',
     ],
     currentComponentName: '',
     currentComponentIndex: 0,
@@ -70,7 +70,7 @@ Page({
 
   // 下一页
   nextComponent() {
-    console.log(this.selectComponent('.slide').onNext())
+    if (!this.selectComponent('.slide').onNext()) return;
 
     console.log('on next');
     const { currentComponentIndex, componentNameList } = this.data;

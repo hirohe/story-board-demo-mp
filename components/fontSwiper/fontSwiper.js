@@ -14,24 +14,21 @@ Component({
   data: {
     fontList: ['每个人都是自己的王', '面具下永远有一个捧着初心的男孩儿', '舞台,是选择 是热爱 是拼搏', 'Who Am I'],
     currentIndex: 0,
-    currentFont: '',
+    currentFont: '每个人都是自己的王',
+
+    fontOpacity: 0,
   },
 
   ready() {
     const { fontList, currentIndex } = this.data;
-    this.setData({currentFont: fontList[currentIndex]});
-    this.timer = setInterval(() => {
-      const { fontList, currentIndex } = this.data;
-      if(currentIndex === 3) {
-        clearInterval(this.timer);
-      } else {
-        this.setData({ currentIndex: currentIndex+1 }, () => {
-          const { currentIndex } = this.data;
-          this.setData({ currentFont: fontList[currentIndex]});
 
-        });
-      }
-    }, 1500)
+    setTimeout(() => {
+      this.setData({ currentFont: fontList[currentIndex], fontOpacity: 1 });
+    }, 500)
+
+    // this.timer = setInterval(() => {
+    //   
+    // }, 1500)
   },
   detached() {
     this.setData({ currentIndex: 0});
@@ -47,8 +44,25 @@ Component({
       this.triggerEvent("hideInputModalStatus", false);
     },
     onNext() {
-      console.log('sign image 1 on next');
-      return true;
-    }
+      const { currentIndex, fontList } = this.data;
+      console.log('currentIndex', currentIndex);
+      return currentIndex === fontList.length - 1;
+    },
+    onTransitionEnd() {
+      const { fontList, currentIndex } = this.data;
+      if (this.data.fontOpacity === 1) {
+        if (currentIndex !== fontList.length - 1) {
+          this.setData({ fontOpacity: 0 });
+        }
+      } else {
+        if (currentIndex !== fontList.length - 1) {
+          this.setData({
+            currentIndex: currentIndex + 1,
+            currentFont: fontList[currentIndex + 1],
+            fontOpacity: 1,
+          });
+        }
+      }
+    },
   }
 });
