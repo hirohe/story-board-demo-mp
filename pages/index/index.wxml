@@ -11,7 +11,7 @@
       <share-btn wx:if="{{!playStatus}}"/>
     </view>
     <view class="index-name">
-      <image src="http://pjpgeagds.bkt.clouddn.com/%E5%90%8D%E5%AD%97.png"></image>
+      <image src="http://pjpgeagds.bkt.clouddn.com/%E5%90%8D%E5%AD%97.png" mode="widthFix"></image>
     </view>
     <view class="index-play" wx:if="{{!playStatus}}">
       <image bindtap="goPlay" src="../../images/iconfont/play.png" />

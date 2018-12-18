@@ -35,7 +35,11 @@
   margin-top: 616rpx;
 }
 .index-play {
-  margin: -165rpx auto;
+  margin: auto;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100rpx;
   height: 100rpx;
   opacity: .3;
@@ -50,7 +54,7 @@
   height: 90rpx;
 }
 .index-btn {
-  margin: -160rpx auto;
+  margin: -100rpx auto;
   width: 100%;
   text-align: center;
 }
