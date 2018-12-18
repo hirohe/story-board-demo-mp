@@ -2,7 +2,7 @@
 <view class="container">
   <!--加载进入logo页面-->
   <view class="welcome" wx:if="{{welcomeVisible}}">
-    <image src="../../images/iconfont/logo.jpg"></image>
+    <image src="../../images/iconfont/logo.jpg" mode="widthFix"></image>
   </view>
 
   <!--主页内容-->
