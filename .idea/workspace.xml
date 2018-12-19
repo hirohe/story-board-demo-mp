@@ -366,7 +366,7 @@
       <updated>1544459190181</updated>
       <workItem from="1544459191507" duration="990000" />
       <workItem from="1544545270440" duration="10308000" />
-      <workItem from="1545198002162" duration="17438000" />
+      <workItem from="1545198002162" duration="17734000" />
     </task>
     <task id="LOCAL-00001" summary="add share modal component">
       <created>1544634597946</created>
@@ -386,7 +386,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103467000" />
+    <option name="totallyTimeSpent" value="103763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -397,7 +397,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3751724" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.62344825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.58896554" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
