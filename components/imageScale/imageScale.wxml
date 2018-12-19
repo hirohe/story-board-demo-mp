@@ -13,7 +13,3 @@
     </view>
   </view>
 </view>
-
-<!--catchtouchstart="fontStart"-->
-<!--catchtouchmove="fontMove"-->
-<!--catchtouchend="fontMoveEnd"-->

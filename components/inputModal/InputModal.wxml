@@ -3,6 +3,7 @@
     <view class="box-picture">
       <view class="box-picture-input">
         <input
+          bindinput="bindInputChange"
           placeholder-style="text-align: center; font-size: 14px"
           placeholder="输入阅读码"
         />

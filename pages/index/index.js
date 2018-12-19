@@ -6,7 +6,8 @@ Page({
   data: {
     welcomeVisible: true,
     playStatus: false,  // 播放状态
-    inputModalStatus: false // 输入阅读码模态框
+    inputModalStatus: false, // 输入阅读码模态框
+    id: '', // 用户id
   },
   onLoad() {
     this.timer = setTimeout(() => {
@@ -20,9 +21,77 @@ Page({
   },
   // 去播放
   goPlay() {
-    this.setData({
-      playStatus: true
+    const self = this;
+    wx.login({
+      success(res) {
+        const code = res.code;
+        wx.request({
+          method: 'GET',
+          url: 'https://www.1027lp.cn/api/index/getuserinfo',
+          data: { code },
+          success(res) {
+            if(res.statusCode === 200 && res.data && res.data.code === 200) {
+              const { is_get, id } = res.data.data;
+              self.setData({ id });
+              // 没有拿到阅读码
+              if(is_get === 0) {
+                self.setData({
+                  playStatus: true
+                });
+              } else {   // 获取阅读码之后跳转
+                wx.navigateTo({
+                  url: '../swiper/swiper'
+                })
+              }
+            } else {
+              wx.showToast({
+                title: '系统繁忙，请重试!',
+                icon: 'none'
+              });
+            }
+          },fail() {
+            wx.showToast({
+              title: '系统繁忙，请重试!',
+              icon: 'none'
+            });
+          }
+        })
+      },fail() {
+        wx.showToast({
+          title: '系统繁忙，请重试!',
+          icon: 'none'
+        });
+      }
     });
+  },
+  // 填写阅读码观看
+  writeCode({ detail }) {
+    const self = this;
+    const { id } = this.data;
+    wx.request({
+      method: 'POST',
+      url: 'https://www.1027lp.cn/api/index/checkreadcode',
+      data: { id, read_code: detail },
+      success(res) {
+        if(res.statusCode === 200 && res.data && res.data.code === 200) {
+          wx.navigateTo({
+            url: '../../pages/swiper/swiper',
+          });
+          self.hideInputModalStatus();
+        } else {
+          const { msg='系统繁忙，请重试' } = res.data;
+          wx.showToast({
+            title: msg,
+            icon: 'none'
+          });
+        }
+      },fail() {
+        wx.showToast({
+          title: '系统繁忙，请重试!',
+          icon: 'none'
+        });
+      }
+    })
   },
   // 展示 输入阅读码 模态框
   showInputModalStatus() {
@@ -35,41 +104,6 @@ Page({
     this.setData({
       inputModalStatus: false
     });
-  },
-  // 长按按图片保存
-  viewImage() {
-    // wx.downloadFile({
-    //   url: 'https://miniapp.hirohe.me/images/fcc/cover.jpg',
-    //   success:function (res) {
-    //     console.log(res);
-    //     //图片保存到本地
-    //     wx.saveImageToPhotosAlbum({
-    //       filePath: res.tempFilePath,
-    //       success:function (data) {
-    //         wx.showToast({
-    //           title: '保存成功'
-    //         });
-    //       },
-    //       fail:function (err) {
-    //         console.log(err);
-    //         if (err.errMsg === "saveImageToPhotosAlbum:fail auth deny") {
-    //           console.log("用户一开始拒绝了，我们想再次发起授权");
-    //           console.log('打开设置窗口');
-    //           wx.openSetting({
-    //             success(settingdata) {
-    //               console.log(settingdata);
-    //               if (settingdata.authSetting['scope.writePhotosAlbum']) {
-    //                 console.log('获取权限成功，给出再次点击图片保存到相册的提示。')
-    //               }else {
-    //                 console.log('获取权限失败，给出不给权限就无法正常使用的提示')
-    //               }
-    //             }
-    //           })
-    //         }
-    //       }
-    //     })
-    //   }
-    // })
   },
   onHide() {
     clearInterval(this.timer);

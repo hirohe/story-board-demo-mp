@@ -15,7 +15,9 @@ Component({
   /**
    * 组件的初始数据
    */
-  data: {},
+  data: {
+    read_code: ''
+  },
 
   /**
    * 组件的方法列表
@@ -25,12 +27,20 @@ Component({
     hideInputModal() {
       this.triggerEvent("hideInputModalStatus", false);
     },
-    // 暂时跳转结束页面
+    // 填写阅读码跳转页面
     toPlayImage() {
-      this.triggerEvent("hideInputModalStatus", false);
-      wx.navigateTo({
-        url: '../../pages/swiper/swiper',
-      });
+      const { read_code } = this.data;
+      if(!read_code) {
+        wx.showToast({
+          title: '请输入阅读码!',
+          icon: 'none'
+        })
+      } else {
+        this.triggerEvent('writeCode', read_code);
+      }
+    },
+    bindInputChange(e) {
+      this.setData({read_code: e.detail.value});
     }
   }
 });
