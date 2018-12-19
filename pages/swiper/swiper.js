@@ -10,6 +10,7 @@ Page({
 
     backgroundMusicPlaying: false,
     play_stop_btn: true,
+    preMusicStatus: false,  // 进入视频之前音乐的状态
 
     componentNameList: [
       'sign-image-1',
@@ -90,12 +91,18 @@ Page({
     } else {
       const index = currentComponentIndex + 1;
       if(componentNameList[index] === 'video' || componentNameList[index] === 'video1') {
+        // 保存进入视频之前的音乐状态
+        const { backgroundMusicPlaying } = this.data;
+        this.setData({preMusicStatus: backgroundMusicPlaying});
         this.pauseBackgroundMusic();
       } else {
         const { play_stop_btn } = this.data;
         if(!play_stop_btn) {
           this.setData({play_stop_btn: true}, () => {
-            this.playBackgroundMusic();
+            const { preMusicStatus } = this.data;
+            if(preMusicStatus) {
+              this.playBackgroundMusic();
+            }
           });
         }
       }
@@ -117,12 +124,18 @@ Page({
     } else {
       const index = currentComponentIndex - 1;
       if(componentNameList[index] === 'video' || componentNameList[index] === 'video1') {
+        // 保存进入视频之前的音乐状态
+        const { backgroundMusicPlaying } = this.data;
+        this.setData({preMusicStatus: backgroundMusicPlaying});
         this.pauseBackgroundMusic();
       } else {
         const { play_stop_btn } = this.data;
         if(!play_stop_btn) {
           this.setData({play_stop_btn: true}, () => {
-            this.playBackgroundMusic();
+            const { preMusicStatus } = this.data;
+            if(preMusicStatus) {
+              this.playBackgroundMusic();
+            }
           });
         }
       }

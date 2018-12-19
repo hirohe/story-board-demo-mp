@@ -14,28 +14,6 @@ Component({
   data: {
     animationData: {},
   },
-
-  ready() {
-    const animation = wx.createAnimation({
-      duration: 100,
-    });
-
-    animation.translateY(0).step();
-
-    this.setData({
-      animationData: animation.export()
-    }, () => {
-      this.timer = setTimeout(() => {
-        animation.translateY('-100%').step({ duration: 15000 });
-        this.setData({
-          animationData: animation.export()
-        });
-      }, 2000);
-    });
-  },
-  detached() {
-    this.timer && clearTimeout(this.timer);
-  },
   /**
    * 组件的方法列表
    */

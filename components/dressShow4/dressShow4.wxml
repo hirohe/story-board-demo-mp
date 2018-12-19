@@ -1,6 +1,6 @@
 <view class="dress-show4">
-  <view class="dress-show4-top">
-    <image src="../../images/iconfont/dress.png" bindtap="showModal"></image>
+  <view class="dress-show4-top" bindtap="showModal">
+    <image src="../../images/iconfont/dress.png"></image>
     <text>点击查看造型解析</text>
   </view>
   <view class="dress4-modal" wx:if="{{modalStatus}}">

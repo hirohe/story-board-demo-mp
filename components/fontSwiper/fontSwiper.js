@@ -22,17 +22,13 @@ Component({
   ready() {
     const { fontList, currentIndex } = this.data;
 
-    setTimeout(() => {
+    this.timer = setTimeout(() => {
       this.setData({ currentFont: fontList[currentIndex], fontOpacity: 1 });
     }, 500)
-
-    // this.timer = setInterval(() => {
-    //   
-    // }, 1500)
   },
   detached() {
     this.setData({ currentIndex: 0});
-    clearInterval(this.timer);
+    clearTimeout(this.timer);
   },
 
   /**
@@ -44,15 +40,15 @@ Component({
       this.triggerEvent("hideInputModalStatus", false);
     },
     onNext() {
-      const { currentIndex, fontList } = this.data;
-      console.log('currentIndex', currentIndex);
-      return currentIndex === fontList.length - 1;
+      return true;
     },
     onTransitionEnd() {
       const { fontList, currentIndex } = this.data;
       if (this.data.fontOpacity === 1) {
         if (currentIndex !== fontList.length - 1) {
           this.setData({ fontOpacity: 0 });
+        } else {
+          this.triggerEvent('nextComponent');
         }
       } else {
         if (currentIndex !== fontList.length - 1) {

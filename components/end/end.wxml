@@ -2,11 +2,16 @@
   <view class="end-title">
     <image src="../../images/iconfont/logo.jpg" mode="widthFix"></image>
   </view>
-  <view class="end-name">
-    <image
-      animation="{{animationData}}"
-      src="http://pjpgeagds.bkt.clouddn.com/wenzi.jpg"
-      mode="widthFix"
-    />
-  </view>
+
+  <scroll-view
+    scroll-y
+    class="end-name"
+  >
+    <view>
+      <image
+        src="http://pjpgeagds.bkt.clouddn.com/wenzi.jpg"
+        mode="widthFix"
+      />
+    </view>
+  </scroll-view>
 </view>

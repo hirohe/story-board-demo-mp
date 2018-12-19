@@ -29,7 +29,7 @@ Component({
     toPlayImage() {
       this.triggerEvent("hideInputModalStatus", false);
       wx.navigateTo({
-        url: '../swiper/swiper',
+        url: '../../pages/swiper/swiper',
       });
     }
   }
