@@ -8,9 +8,10 @@ Page({
     movingX: null,
     moving: false,
 
-    backgroundMusicPlaying: false,
-    play_stop_btn: true,
+    backgroundMusicPlaying: false,// 音乐播放状态
+    play_stop_btn: true,     // 播放，暂停按钮显示隐藏
     preMusicStatus: false,  // 进入视频之前音乐的状态
+    linkStatus: false,       // 箭头状态
 
     componentNameList: [
       'sign-image-1',
@@ -66,7 +67,6 @@ Page({
   onTouchEnd(e) {
     const { movingX } = this.data;
 
-    console.log('movingX', movingX);
     if (Math.abs(movingX) > moving_threshold) {
       this.setData({ startX: null, movingX: null, moving: false });
 
@@ -90,6 +90,16 @@ Page({
       })
     } else {
       const index = currentComponentIndex + 1;
+
+      // 控制箭头
+      let name = componentNameList[index];
+      if(name === 'video' || name === 'video1' || name === 'font-swiper' || name === 'sign-image-1' || name === 'end') {
+        this.setData({linkStatus: false}); // 隐藏箭头
+      }else {
+        this.setData({linkStatus: true});// 展示箭头
+      }
+
+      // 控制播放器
       if(componentNameList[index] === 'video' || componentNameList[index] === 'video1') {
         // 保存进入视频之前的音乐状态
         const { backgroundMusicPlaying } = this.data;
@@ -123,6 +133,16 @@ Page({
       })
     } else {
       const index = currentComponentIndex - 1;
+
+      // 控制箭头
+      let name = componentNameList[index];
+      if(name === 'video' || name === 'video1' || name === 'font-swiper' || name === 'sign-image-1' || name === 'end') {
+        this.setData({linkStatus: false}); // 隐藏箭头
+      }else {
+        this.setData({linkStatus: true});// 展示箭头
+      }
+
+      // 控制播放器
       if(componentNameList[index] === 'video' || componentNameList[index] === 'video1') {
         // 保存进入视频之前的音乐状态
         const { backgroundMusicPlaying } = this.data;

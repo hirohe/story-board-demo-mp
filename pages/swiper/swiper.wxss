@@ -1,4 +1,5 @@
 .swiper {
+  position: relative;
   width: 100%;
   height: 100%;
   background-color: #000;
@@ -6,6 +7,22 @@
 .swiper image {
   width: 100%;
   height: 100%;
+}
+.swiper .left-icon {
+  position: absolute;
+  z-index: 999;
+  top: 48%;
+  left: 10rpx;
+  width: 48rpx;
+  height: 48rpx;
+}
+.swiper .right-icon {
+  position: absolute;
+  z-index: 999;
+  top: 48%;
+  right: 10rpx;
+  width: 48rpx;
+  height: 48rpx;
 }
 
 .swiper-music-icon {

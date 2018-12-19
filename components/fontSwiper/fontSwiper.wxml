@@ -4,5 +4,10 @@
   bindtransitionend="onTransitionEnd"
   style="opacity: {{fontOpacity}}"
 >
-  {{currentFont}}
+  <image
+    mode="widthFix"
+    style="width: 100%"
+    src="{{currentFont}}"
+  >
+  </image>
 </view>

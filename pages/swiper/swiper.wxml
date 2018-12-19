@@ -4,6 +4,19 @@
   bindtouchmove="onTouchMove"
   bindtouchend="onTouchEnd"
 >
+  <image
+    wx:if="{{linkStatus}}"
+    class="left-icon"
+    bindtap="previousComponent"
+    src="../../images/iconfont/left.png"
+  ></image>
+
+  <image
+    wx:if="{{linkStatus}}"
+    class="right-icon"
+    bindtap="nextComponent"
+    src="../../images/iconfont/right.png"
+  ></image>
 
   <view class="swiper-music-icon" bindtap="triggerBackgroundMusic" wx:if="{{play_stop_btn}}">
     <image hidden="{{backgroundMusicPlaying}}" src="../../images/iconfont/videoStop.png"></image>
