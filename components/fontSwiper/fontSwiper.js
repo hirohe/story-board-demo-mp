@@ -12,9 +12,15 @@ Component({
    * 组件的初始数据
    */
   data: {
-    fontList: ['每个人都是自己的王', '面具下永远有一个捧着初心的男孩儿', '舞台,是选择 是热爱 是拼搏', 'Who Am I'],
+    // fontList1: ['每个人都是自己的王', '面具下永远有一个捧着初心的男孩儿', '舞台,是选择 是热爱 是拼搏', 'Who Am I'],
+    fontList: [
+      'http://pjpgeagds.bkt.clouddn.com/%E8%A1%94%E6%8E%A51.jpg',
+      'http://pjpgeagds.bkt.clouddn.com/%E8%A1%94%E6%8E%A52.jpg',
+      'http://pjpgeagds.bkt.clouddn.com/%E8%A1%94%E6%8E%A53.jpg',
+      'http://pjpgeagds.bkt.clouddn.com/%E8%A1%94%E6%8E%A54.jpg',
+    ],
     currentIndex: 0,
-    currentFont: '每个人都是自己的王',
+    currentFont: 'http://pjpgeagds.bkt.clouddn.com/%E8%A1%94%E6%8E%A51.jpg',
 
     fontOpacity: 0,
   },
