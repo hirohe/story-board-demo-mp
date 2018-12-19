@@ -22,13 +22,17 @@
   <image5 wx:if="{{currentComponentName === 'image5'}}" class="slide" />
   <image6 wx:if="{{currentComponentName === 'image6'}}" class="slide" />
   <font-swiper wx:if="{{currentComponentName === 'font-swiper'}}" class="slide" />
-  <video wx:if="{{currentComponentName === 'video'}}" class="slide" />
+  <video
+    style="width: 100vw; height: 100vh;"
+    wx:if="{{currentComponentName === 'video'}}" class="slide" />
   <dress-show-1 wx:if="{{currentComponentName === 'dress-show-1'}}" class="slide" />
   <dress-show-2 wx:if="{{currentComponentName === 'dress-show-2'}}" class="slide" />
   <dress-show-3 wx:if="{{currentComponentName === 'dress-show-3'}}" class="slide" />
   <dress-show-4 wx:if="{{currentComponentName === 'dress-show-4'}}" class="slide" />
   <dress-show-5 wx:if="{{currentComponentName === 'dress-show-5'}}" class="slide" />
-  <video1 wx:if="{{currentComponentName === 'video1'}}" class="slide" />
+  <video1
+    style="width: 100vw; height: 100vh;"
+    wx:if="{{currentComponentName === 'video1'}}" class="slide" />
   <end wx:if="{{currentComponentName === 'end'}}" class="slide" />
 
 </view>
