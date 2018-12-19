@@ -26,19 +26,16 @@ Component({
   methods: {
     onNext() {
       console.log('sign image 1 on next');
-      return true;
+      return this.canMove;
     },
-    // fontStart() {
-    //   this.isCanMove = false;
-    //   return true;
-    // },
-    // fontMove() {
-    //   this.isCanMove = false;
-    //   return true;
-    // },
-    // fontMoveEnd() {
-    //   this.isCanMove = false;
-    //   return true;
-    // },
+    onRootTouchStart() {
+      this.canMove = true;
+    },
+    fontMove(e) {
+      this.canMove = false;
+    },
+    fontMoveEnd() {
+      this.canMove = false;
+    },
   }
 });

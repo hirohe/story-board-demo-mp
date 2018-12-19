@@ -1,6 +1,7 @@
-<view class="image-scale">
+<view class="image-scale" bindtouchstart="onRootTouchStart">
   <view
     class="image-scale-text"
+    bindtouchmove="fontMove"
   >
     <view class="title">
       <text>这个是一个标题</text>
