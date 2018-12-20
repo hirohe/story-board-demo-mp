@@ -1,0 +1,23 @@
+<view class="image-scale1" bindtouchstart="onRootTouchStart">
+
+  <view class="image-scale1-image">
+    <image
+      src="http://pjpgeagds.bkt.clouddn.com/13@3x.png" mode="widthFix"
+      bindtouchmove="smallImageMove"
+      bindtouchend="samllImageEnd"
+    ></image>
+  </view>
+
+  <scroll-view
+    scroll-y
+    bindtouchmove="fontMove"
+    class="image-scale1-font"
+  >
+    <view>
+      <image
+        src="http://pjpgeagds.bkt.clouddn.com/wenzi.jpg"
+        mode="widthFix"
+      />
+    </view>
+  </scroll-view>
+</view>

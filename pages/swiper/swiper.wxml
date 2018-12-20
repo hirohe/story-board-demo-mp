@@ -28,15 +28,15 @@
   <sign-image-3 wx:if="{{currentComponentName === 'sign-image-3'}}" class="slide" />
   <sign-image-4 wx:if="{{currentComponentName === 'sign-image-4'}}" class="slide" />
 
-  <image1
-    bind:nextComponent="nextComponent"
-    wx:if="{{currentComponentName === 'image1'}}"
-    class="slide" />
+  <image1 bind:nextComponent="nextComponent" wx:if="{{currentComponentName === 'image1'}}" class="slide" />
   <image-scale1 wx:if="{{currentComponentName === 'image-scale1'}}" class="slide" />
 
+  <image2 bind:nextComponent="nextComponent" wx:if="{{currentComponentName === 'image2'}}" class="slide" />
+  <image-scale2 wx:if="{{currentComponentName === 'image-scale2'}}" class="slide" />
 
-  <image2 wx:if="{{currentComponentName === 'image2'}}" class="slide" />
-  <image3 wx:if="{{currentComponentName === 'image3'}}" class="slide" />
+  <image3 bind:nextComponent="nextComponent" wx:if="{{currentComponentName === 'image3'}}" class="slide" />
+  <image-scale3 wx:if="{{currentComponentName === 'image-scale3'}}" class="slide" />
+
   <image4 wx:if="{{currentComponentName === 'image4'}}" class="slide" />
   <image5 wx:if="{{currentComponentName === 'image5'}}" class="slide" />
   <image6 wx:if="{{currentComponentName === 'image6'}}" class="slide" />
