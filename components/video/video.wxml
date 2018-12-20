@@ -1,6 +1,6 @@
 <view class="video">
   <video
-    src="http://pjpgeagds.bkt.clouddn.com/ca5b696bb53f01bdb22b10bf238a9120.mp4"
+    src="http://cheese-fashion.oss-cn-beijing.aliyuncs.com/wechat/%E6%89%8B%E6%9C%BA.mp4"
     autoplay="{{true}}"
     controls
   ></video>

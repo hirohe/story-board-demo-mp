@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78d33677-ba18-44fa-bae0-f609f76a2215" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/components/image2/image2.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/image2/image2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/image3/image3.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/image3/image3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/imageScale1/imageScale1.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/imageScale1/imageScale1.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/imageScale2/imageScale2.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/imageScale2/imageScale2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/imageScale2/imageScale2.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/imageScale2/imageScale2.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/imageScale3/imageScale3.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/imageScale3/imageScale3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/imageScale3/imageScale3.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/imageScale3/imageScale3.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/image2/image2.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/image2/image2.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/image3/image3.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/image3/image3.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/video/video.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/video/video.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/video1/video1.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/video1/video1.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/swiper/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/swiper/swiper.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,61 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="signImage2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/signImage2/signImage2.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="imageScale1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/imageScale1/imageScale1.js">
+      <file leaf-file-name="swiper.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imageScale1.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/imageScale1/imageScale1.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imageScale2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/imageScale2/imageScale2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imageScale3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/imageScale3/imageScale3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imageScale2.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/imageScale2/imageScale2.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imageScale3.wxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/imageScale3/imageScale3.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+            <state relative-caret-position="318">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -142,8 +91,6 @@
         <option value="$PROJECT_DIR$/components/image5/image5.wxss" />
         <option value="$PROJECT_DIR$/components/image6/image6.wxss" />
         <option value="$PROJECT_DIR$/components/image6/image6.wxml" />
-        <option value="$PROJECT_DIR$/components/video/video.wxml" />
-        <option value="$PROJECT_DIR$/components/video1/video1.wxml" />
         <option value="$PROJECT_DIR$/components/video/video.wxss" />
         <option value="$PROJECT_DIR$/components/video1/video1.wxss" />
         <option value="$PROJECT_DIR$/components/end/end.wxml" />
@@ -170,12 +117,8 @@
         <option value="$PROJECT_DIR$/components/imageScale/imageScale.wxss" />
         <option value="$PROJECT_DIR$/components/imageScale/imageScale.wxml" />
         <option value="$PROJECT_DIR$/components/imageScale1/imageScale1.wxss" />
-        <option value="$PROJECT_DIR$/app.json" />
-        <option value="$PROJECT_DIR$/pages/swiper/swiper.js" />
         <option value="$PROJECT_DIR$/pages/swiper/swiper.json" />
         <option value="$PROJECT_DIR$/pages/swiper/swiper.wxml" />
-        <option value="$PROJECT_DIR$/components/image2/image2.wxml" />
-        <option value="$PROJECT_DIR$/components/image3/image3.wxml" />
         <option value="$PROJECT_DIR$/components/image2/image2.js" />
         <option value="$PROJECT_DIR$/components/image3/image3.js" />
         <option value="$PROJECT_DIR$/components/imageScale2/imageScale2.js" />
@@ -183,6 +126,12 @@
         <option value="$PROJECT_DIR$/components/imageScale1/imageScale1.wxml" />
         <option value="$PROJECT_DIR$/components/imageScale2/imageScale2.wxml" />
         <option value="$PROJECT_DIR$/components/imageScale3/imageScale3.wxml" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/components/video/video.wxml" />
+        <option value="$PROJECT_DIR$/components/video1/video1.wxml" />
+        <option value="$PROJECT_DIR$/components/image2/image2.wxml" />
+        <option value="$PROJECT_DIR$/components/image3/image3.wxml" />
+        <option value="$PROJECT_DIR$/pages/swiper/swiper.js" />
       </list>
     </option>
   </component>
@@ -224,19 +173,31 @@
               <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
               <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="imageScale1" type="462c0819:PsiDirectoryNode" />
+              <item name="image1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
               <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="imageScale2" type="462c0819:PsiDirectoryNode" />
+              <item name="image2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
               <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="imageScale3" type="462c0819:PsiDirectoryNode" />
+              <item name="image3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="story-board-demo-mp" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="video1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="story-board-demo-mp" type="b2602c69:ProjectViewProjectNode" />
@@ -447,7 +408,7 @@
       <updated>1544459190181</updated>
       <workItem from="1544459191507" duration="990000" />
       <workItem from="1544545270440" duration="10308000" />
-      <workItem from="1545198002162" duration="31869000" />
+      <workItem from="1545198002162" duration="32951000" />
     </task>
     <task id="LOCAL-00001" summary="add share modal component">
       <created>1544634597946</created>
@@ -467,7 +428,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117898000" />
+    <option name="totallyTimeSpent" value="118980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,7 +451,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.7144828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.48689654" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3337931" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -573,26 +534,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/dressShow4/dressShow4.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/dressShow5/dressShow5.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/cool@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/iconfont/dress.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/iconfont/衣服按钮.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -631,16 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="97" column="20" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/image2/image2.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -772,34 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/image1/image1.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/image2/image2.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/image3/image3.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/dressShow2/dressShow2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-247" />
@@ -817,20 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/image2/image2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/image1/image1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/signImage1/signImage1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -839,20 +721,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/signImage2/signImage2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/imageScale2/imageScale2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/imageScale3/imageScale3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
+        <state relative-caret-position="-64" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/imageScale1/imageScale1.js">
@@ -869,6 +739,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/imageScale2/imageScale2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/imageScale3/imageScale3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/imageScale2/imageScale2.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -880,6 +764,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.wxss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/video1/video1.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="88" selection-start-line="2" selection-start-column="88" selection-end-line="2" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/video/video.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="88" selection-start-line="2" selection-start-column="88" selection-end-line="2" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/image2/image2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/image1/image1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/image1/image1.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/image3/image3.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/image2/image2.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/swiper/swiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -2,9 +2,5 @@
   <image
     mode="aspectFill"
     src="http://pjpgeagds.bkt.clouddn.com/2@3x.png"
-    bindtouchmove="fullImageMove"
-    bindtouchend="fullImageEnd"
-    animation="{{animationData}}"
-    bindtransitionend="onTransitionEnd"
   ></image>
 </view>
