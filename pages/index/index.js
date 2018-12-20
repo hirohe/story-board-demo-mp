@@ -7,6 +7,7 @@ Page({
     welcomeVisible: true,
     playStatus: false,  // 播放状态
     inputModalStatus: false, // 输入阅读码模态框
+
     id: '', // 用户id
   },
   onLoad() {
@@ -21,6 +22,7 @@ Page({
   },
   // 去播放
   goPlay() {
+    wx.showLoading({title: '加载中'});
     const self = this;
     wx.login({
       success(res) {
@@ -45,20 +47,22 @@ Page({
               }
             } else {
               wx.showToast({
-                title: '系统繁忙，请重试!',
+                title: '当前访问人数过多，请重试!',
                 icon: 'none'
               });
             }
           },fail() {
             wx.showToast({
-              title: '系统繁忙，请重试!',
+              title: '当前访问人数过多，请重试!',
               icon: 'none'
             });
+          },complete() {
+            wx.hideLoading();
           }
         })
       },fail() {
         wx.showToast({
-          title: '系统繁忙，请重试!',
+          title: '当前访问人数过多，请重试!',
           icon: 'none'
         });
       }
@@ -68,6 +72,7 @@ Page({
   writeCode({ detail }) {
     const self = this;
     const { id } = this.data;
+    wx.showLoading({title: '加载中'});
     wx.request({
       method: 'POST',
       url: 'https://www.1027lp.cn/api/index/checkreadcode',
@@ -79,7 +84,7 @@ Page({
           });
           self.hideInputModalStatus();
         } else {
-          const { msg='系统繁忙，请重试' } = res.data;
+          const { msg='当前访问人数过多，请重试!' } = res.data;
           wx.showToast({
             title: msg,
             icon: 'none'
@@ -87,9 +92,11 @@ Page({
         }
       },fail() {
         wx.showToast({
-          title: '系统繁忙，请重试!',
+          title: '当前访问人数过多，请重试!',
           icon: 'none'
         });
+      },complete() {
+        wx.hideLoading();
       }
     })
   },
