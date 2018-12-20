@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78d33677-ba18-44fa-bae0-f609f76a2215" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/components/imageScale2/imageScale2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/imageScale2/imageScale2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/imageScale2/imageScale2.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/imageScale2/imageScale2.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/imageScale3/imageScale3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/imageScale3/imageScale3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/imageScale3/imageScale3.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/imageScale3/imageScale3.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/image2/image2.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/image2/image2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/image2/image2.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/image2/image2.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/image2/image2.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/image2/image2.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/image3/image3.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/image3/image3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/image3/image3.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/image3/image3.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/image3/image3.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/image3/image3.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/swiper/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/swiper/swiper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/swiper/swiper.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/swiper/swiper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/swiper/swiper.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/swiper/swiper.wxml" afterDir="false" />
-    </list>
+    <list default="true" id="78d33677-ba18-44fa-bae0-f609f76a2215" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -356,7 +337,7 @@
       <updated>1544459190181</updated>
       <workItem from="1544459191507" duration="990000" />
       <workItem from="1544545270440" duration="10308000" />
-      <workItem from="1545198002162" duration="31455000" />
+      <workItem from="1545198002162" duration="31532000" />
     </task>
     <task id="LOCAL-00001" summary="add share modal component">
       <created>1544634597946</created>
@@ -376,7 +357,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117484000" />
+    <option name="totallyTimeSpent" value="117561000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
