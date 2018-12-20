@@ -19,7 +19,7 @@ Page({
       'sign-image-3',
       'sign-image-4',
       'image1',
-      'image-scale',
+      'image-scale1',
       'image2',
       'image3',
       'image4',

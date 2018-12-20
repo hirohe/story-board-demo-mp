@@ -7,14 +7,14 @@
   <image
     wx:if="{{linkStatus}}"
     class="left-icon"
-    bindtap="previousComponent"
+    catchtap="previousComponent"
     src="../../images/iconfont/left.png"
   ></image>
 
   <image
     wx:if="{{linkStatus}}"
     class="right-icon"
-    bindtap="nextComponent"
+    catchtap="nextComponent"
     src="../../images/iconfont/right.png"
   ></image>
 
@@ -27,8 +27,14 @@
   <sign-image-2 wx:if="{{currentComponentName === 'sign-image-2'}}" class="slide" />
   <sign-image-3 wx:if="{{currentComponentName === 'sign-image-3'}}" class="slide" />
   <sign-image-4 wx:if="{{currentComponentName === 'sign-image-4'}}" class="slide" />
-  <image1 wx:if="{{currentComponentName === 'image1'}}" class="slide" />
-  <image-scale wx:if="{{currentComponentName === 'image-scale'}}" class="slide" />
+
+  <image1
+    bind:nextComponent="nextComponent"
+    wx:if="{{currentComponentName === 'image1'}}"
+    class="slide" />
+  <image-scale1 wx:if="{{currentComponentName === 'image-scale1'}}" class="slide" />
+
+
   <image2 wx:if="{{currentComponentName === 'image2'}}" class="slide" />
   <image3 wx:if="{{currentComponentName === 'image3'}}" class="slide" />
   <image4 wx:if="{{currentComponentName === 'image4'}}" class="slide" />

@@ -34,8 +34,5 @@ Component({
     fontMove(e) {
       this.canMove = false;
     },
-    fontMoveEnd() {
-      this.canMove = false;
-    },
   }
 });

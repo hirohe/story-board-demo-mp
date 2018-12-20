@@ -29,18 +29,18 @@ Component({
       return true;
     },
     onImageLoad() {
-      wx.getImageInfo({
-        src: this.data.imageSrc,
-        success(res) {
-          // console.log(res);
-          wx.saveImageToPhotosAlbum({
-            filePath: res.path,
-            success(response) {
-              // console.log(response)
-            }
-          })
-        }
-      })
+      // wx.getImageInfo({
+      //   src: this.data.imageSrc,
+      //   success(res) {
+      //     // console.log(res);
+      //     wx.saveImageToPhotosAlbum({
+      //       filePath: res.path,
+      //       success(response) {
+      //         // console.log(response)
+      //       }
+      //     })
+      //   }
+      // })
     }
   }
 });

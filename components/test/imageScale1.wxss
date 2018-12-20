@@ -1,0 +1,24 @@
+.image-scale1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  position: relative;
+}
+
+.image-scale1-image {
+  width: 100vw;
+  height: 100vh;
+}
+
+.image-scale1-image image {
+  width: 100%;
+}
+.image-scale1-font {
+  margin-top: -733rpx;
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+}
+.image-scale1-font image {
+  width: 100%;
+}

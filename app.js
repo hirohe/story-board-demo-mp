@@ -17,5 +17,6 @@ App({
   },
   globalData: {
     scence: 0,
+    preImageScaleStatus: true,
   }
 });
