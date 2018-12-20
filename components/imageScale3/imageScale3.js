@@ -15,7 +15,7 @@ Component({
   },
 
   ready() {
-    // this.isCanMove = true;
+    this.canMove = true;
   },
   detached() {
   },

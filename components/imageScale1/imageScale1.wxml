@@ -3,8 +3,6 @@
   <view class="image-scale1-image">
     <image
       src="http://pjpgeagds.bkt.clouddn.com/13@3x.png" mode="widthFix"
-      bindtouchmove="smallImageMove"
-      bindtouchend="samllImageEnd"
     ></image>
   </view>
 

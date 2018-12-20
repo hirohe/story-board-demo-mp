@@ -20,6 +20,7 @@ Component({
   },
 
   ready() {
+    this.canMove = true;
   },
   detached() {
   },
