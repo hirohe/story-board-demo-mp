@@ -2,6 +2,7 @@
   <image
     mode="aspectFill"
     src="http://pjpgeagds.bkt.clouddn.com/1@3x.png"
+    bindlongpress="onLongPress"
   />
 
   <view class="sign-image2-bottom">

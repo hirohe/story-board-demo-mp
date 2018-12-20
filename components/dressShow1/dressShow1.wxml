@@ -1,4 +1,4 @@
-<view class="dress-show1">
+<view class="dress-show1" bindlongpress="onLongPress">
   <view class="dress-show1-top" bindtap="showModal">
     <image src="../../images/iconfont/dress.png"></image>
     <text>点击查看造型解析</text>

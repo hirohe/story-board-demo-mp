@@ -1,4 +1,8 @@
+const saveImageToAlbum = require('../../behaviors/saveImageToAlbum');
+const imageSrc = 'https://cheese-fashion.oss-cn-beijing.aliyuncs.com/wechat/2-7%403x.png';
+
 Component({
+  behaviors: [saveImageToAlbum(imageSrc)],
   options: {
     multipleSlots: true
   },

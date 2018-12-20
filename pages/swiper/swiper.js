@@ -126,7 +126,7 @@ Page({
   },
   // 上一页
   previousComponent() {
-    if (!this.selectComponent('.slide').onNext()) return;
+    // if (!this.selectComponent('.slide').onNext()) return;
     console.log('on previous');
     const { currentComponentIndex, componentNameList } = this.data;
     if (currentComponentIndex <= 0) {
